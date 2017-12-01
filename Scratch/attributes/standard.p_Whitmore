@@ -1,0 +1,14 @@
+Whitmore_attributes.saveas_file "standard"
+Whitmore_attributes.get_menu "standard"
+Whitmore_attributes.name_enable 0
+Whitmore_attributes.ThirdHandle 0
+Whitmore_attributes.AtDepthValue 0.000000
+Whitmore_attributes.AtDepth 0
+Whitmore_attributes.RotationValue 0.000000
+Whitmore_attributes.Rotation 0
+Whitmore_attributes.OnPlaneValue -0.793700
+Whitmore_attributes.OnPlane 0
+Whitmore_attributes.P8 1
+Whitmore_attributes.P7 1
+Whitmore_attributes.P5 -2147483648.000000
+Whitmore_attributes.P1 1

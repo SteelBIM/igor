@@ -1,0 +1,13 @@
+AS2_attributes.saveas_file "standard"
+AS2_attributes.get_menu "standard"
+AS2_attributes.name_enable 0
+AS2_attributes.ThirdHandle 0
+AS2_attributes.AtDepthValue 0.000000
+AS2_attributes.AtDepth 0
+AS2_attributes.RotationValue -0.000000
+AS2_attributes.Rotation 1
+AS2_attributes.OnPlaneValue 0.000000
+AS2_attributes.OnPlane 0
+AS2_attributes.P3 "Misc_Undefined"
+AS2_attributes.P2 ""
+AS2_attributes.P1 103

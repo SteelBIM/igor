@@ -1,0 +1,55 @@
+page("TeklaStructures","")
+{
+   detail(1, "SF_fema_PREP_15")
+   {
+       tab_page("", " Top Prep ", 1)
+       {
+	   picture("Top_Rat")
+       }
+       tab_page("", " Bottom Prep ", 2)
+       {
+	   picture("Bottom_Rat")
+       }
+       tab_page("", " Parameters ", 3)
+       {
+	   parameter("Flange Angle", "Input_prep_angle", angle, number, 1)
+/*           parameter("User Rat Length", "Input_rat_length", distance, number, 2) */
+           parameter("Radius", "Input_Radius", distance, number, 3)
+/*           parameter("Top Clear", "Input_top_cl", distance, number, 4) */
+/*           parameter("Bottom Clear", "Input_bottom_cl", distance, number, 5) */
+           parameter("Top Setback (For Cope)", "Input_top_setback", distance, number, 6)
+           parameter("Bottom Setback (For Cope)", "Input_bot_setback", distance, number, 7)
+/*           parameter("Rat Height", "Input_rat_height", distance, number, 8) */
+	   attribute("Input_bot_dir", "Direction of Bottom Prep?", option, "%s", none, none, "0.0", "0.0")
+                {
+                     value("Same As Top",1)
+                     value("Opposite To Top",0)
+                }
+	   attribute("Input_bb_required", "Backing bar Required?", option, "%s", none, none, "0.0", "0.0")
+                {
+                     value("No",1)
+                     value("Yes",0)
+                } 
+	   parameter("Backing bar add", "Input_bb_add_dim", distance, number, 11)
+           parameter("Backing bar offset", "Input_bb_offset", distance, number, 12)
+
+           parameter("Web Cutback", "Input_web_cut_dim", distance, number, 13)
+	   attribute("Input_web_cut_req", "Web cut Required?", option, "%s", none, none, "0.0", "0.0")
+                {
+                     value("No",1)
+                     value("Yes",0)
+                } 
+           picture("Cut_Rat",100,100,65,375)
+/*	   attribute("Input_auto_cal", "Calculate Prep size?", option, "%s", none, none, "0.0", "0.0", 375, 580, 160)
+                {
+                     value("No",1)
+                     value("Yes",0)
+                } */
+/*	   attribute("Input_include_flat", "Add Clear dim to rat length?", option, "%s", none, none, "0.0", "0.0", 375, 610, 160)
+                {
+                     value("No",1)
+                     value("Yes",0)
+                }  */
+       }
+   }                                           
+}

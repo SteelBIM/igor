@@ -1,0 +1,23 @@
+page("TeklaStructures","")
+{
+   joint(1, "SF WELDED SPLICE_TEMP")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Radius", "Radius", distance, number, 1)
+           parameter("Rat  Horz", "B_RHOR1", distance, number, 2)
+           parameter("Top Clear", "BU_Clear", distance, number, 3)
+           parameter("Flange Angle", "Prep_Ang", angle, number, 4)
+           parameter("User Rat Height", "Usr_Hgt", distance, number, 5)
+           parameter("Backing bar add", "Backing_bar_add", distance, number, 6)
+           parameter("Backing bar offset", "P3", distance, number, 7)
+           parameter("Flange Gap", "P1", distance, number, 8)
+           parameter("Web Gap", "P4", distance, number, 9)
+           parameter("Flange Weld Root Face", "P6", distance, number, 10)
+           parameter("Web prep angle", "W_Prep_Ang", angle, number, 11)
+           parameter("Flange Weld Root Face", "P7", distance, number, 12)
+           parameter("Create Flange Backing bar", "P8", YesNo, number, 13)
+           parameter("Create Web Backing bar", "P9", YesNo, number, 14)
+       }
+   }
+}

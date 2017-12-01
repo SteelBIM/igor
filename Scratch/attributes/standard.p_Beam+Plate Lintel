@@ -1,0 +1,16 @@
+Beam+Plate Lintel_attributes.saveas_file "standard"
+Beam+Plate Lintel_attributes.get_menu "standard"
+Beam+Plate Lintel_attributes.name_enable 0
+Beam+Plate Lintel_attributes.ThirdHandle 0
+Beam+Plate Lintel_attributes.AtDepthValue 0.000000
+Beam+Plate Lintel_attributes.AtDepth 0
+Beam+Plate Lintel_attributes.RotationValue -0.000000
+Beam+Plate Lintel_attributes.Rotation 1
+Beam+Plate Lintel_attributes.OnPlaneValue 0.000000
+Beam+Plate Lintel_attributes.OnPlane 0
+Beam+Plate Lintel_attributes.D7 -2147483648.000000
+Beam+Plate Lintel_attributes.D4 -2147483648.000000
+Beam+Plate Lintel_attributes.D1 -2147483648.000000
+Beam+Plate Lintel_attributes.P3 -2147483648.000000
+Beam+Plate Lintel_attributes.P2 ""
+Beam+Plate Lintel_attributes.P1 ""

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TeklaStructuresModels>
+<TeklaStructuresModels>
+    <Model>
+        <Name>Scratch</Name>
+        <Designer>N/A</Designer>
+        <Description> </Description>
+        <Version>21.1 Service Release 8</Version>
+        <Environment>SteelFab</Environment>
+        <Language>enu</Language>
+    </Model>
+</TeklaStructuresModels>

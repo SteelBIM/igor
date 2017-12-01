@@ -1,0 +1,14 @@
+AS1_attributes.saveas_file "standard"
+AS1_attributes.get_menu "standard"
+AS1_attributes.name_enable 0
+AS1_attributes.ThirdHandle 0
+AS1_attributes.AtDepthValue -76.200000
+AS1_attributes.AtDepth 2
+AS1_attributes.RotationValue -0.000000
+AS1_attributes.Rotation 1
+AS1_attributes.OnPlaneValue 0.000000
+AS1_attributes.OnPlane 0
+AS1_attributes.P4 "1''Ø HEAVY HEX NUT"
+AS1_attributes.P3 "A307"
+AS1_attributes.P2 ""
+AS1_attributes.P1 101

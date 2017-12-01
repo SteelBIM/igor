@@ -1,0 +1,16 @@
+page("TeklaStructures","")
+{
+   detail(1, "SF_BASE_PL_SHIM_13-1")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           picture("SF_BASE_PL_SHIM2",208,168,20, 20)		           
+	   parameter("(A) Plate length", "P2", distance, number,385,250,80)
+           parameter("(B) Plate Width", "P1", distance, number, 385,275,80)
+           parameter("(C) Distance from edge of Base PL", "P3", distance, number,385,300,80)
+           parameter("(D) Offset Side A", "P12", distance, number, 385,325,80)
+           parameter("(E) Offset Side B", "P4", distance, number, 385,350,80)
+           parameter("Ship with Column", "P11", YesNo, number, 385,375,80)           
+       }
+   }
+}

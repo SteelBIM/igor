@@ -1,0 +1,27 @@
+page("TeklaStructures","")
+{
+   macro(1, "Stud Rail")
+   {
+       helpurl("TeklaInc_CC2.chm::/stud_rail.html")
+       tab_page("", " Plate Info ", 1)
+       {
+	     picture("Stud_Rail_1_CC",225,400,0,0)
+           parameter("Plate Name", "P8", string, text, 13)
+           parameter("Plate Finish", "P9", string, text, 14)
+           parameter("Plate Class", "P10", integer, number, 15)
+           parameter(" Plate Thickness", "P13", distance, number, 284,177,75)
+           parameter(" Plate Width", "P14", distance, number, 150,225,75)
+       }
+	 tab_page("", " Stud Info ", 2)
+	 {
+	     picture("Stud_Rail_2_CC",500,400,0,0)
+           parameter(" Start Spacing", "P1", distance, number, 150,55,65)
+           parameter(" Number of Studs", "P3", integer, number, 260,55,35)
+           parameter(" Spacing", "P4", distance, number, 365,55,65)	
+           parameter(" End Spacing", "P2", distance, number, 470,55,65)
+           parameter(" Stud Size", "P11_Stud_size", stud_size, number, 315,450,65)
+           parameter(" Stud Length", "P11_Stud_length", stud_length, number, 430,350,75)
+           parameter("Stud Standard", "P11_Stud_standard", stud_standard, text, 19)
+       }
+   }
+}

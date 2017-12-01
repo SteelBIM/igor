@@ -1,0 +1,62 @@
+page("TeklaStructures","")
+{
+   macro(1, "SF_BENT_PLATE_14_1")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           attribute("label_1", "Profile", label,"%s",  none, none, "0.0", "0.0",40,5)
+           parameter("", "P2", profile, text, 30,30,140)
+           attribute("label_2", "Pos_No", label,"%s",  none, none, "0.0", "0.0",230,5)
+           parameter("", "P6", string, text, 230,30,40)
+           parameter("", "P7", integer, number, 300,30,30)
+           parameter("", "P8", string, text,230,60,40)
+           parameter("", "P9", integer, number, 300,60,30)
+           attribute("label_3", "Material", label,"%s",  none, none, "0.0", "0.0",360,5)
+           parameter("", "P10", material, text, 360,30,70)
+           attribute("label_4", "Name", label,"%s",  none, none, "0.0", "0.0",485,5)
+           parameter("", "P11", string, text, 485,30,120)
+           parameter("", "P4", distance, number, 290,180,70)
+           parameter("", "P5", distance, number, 70,220,70)
+           parameter("", "P3", distance, number, 400,260,70)
+           picture("sf_bp",400, 260, 10, 150)
+     
+       }
+       tab_page("", " Studs ", 2)
+       {
+           attribute("label_5", "Studs required", label,"%s",  none, none, "0.0", "0.0",20,5)
+           parameter("", "P12", YesNo, number, 205,5,90)
+           attribute("label_6", "Stud diameter", label,"%s",  none, none, "0.0", "0.0",20,30)
+           parameter("", "P13_size", stud_size, number, 205,30,90)
+           attribute("label_6", "Stud standard", label,"%s",  none, none, "0.0", "0.0",20,55)
+           parameter("", "P13_standard", stud_standard, text, 205,55,90)
+
+           parameter("", "P14", distance, number,240,120,70)
+           parameter("", "P15", distance, number, 70,265,70)
+           picture("sf_bp_stud",130, 130, 150, 150)
+           
+           parameter("", "P17", distance_list, text, 250,370,150)
+           parameter("", "P16", distance, number, 70,350,60)
+           picture("sf_bp_stud2",280, 135, 100, 380)
+           
+           attribute("label_7", "Holes required", label,"%s",  none, none, "0.0", "0.0",320,5)
+           parameter("", "P18", YesNo, number, 505,5,90)
+           attribute("label_10", "Create bolt", label,"%s",  none, none, "0.0", "0.0",320,30)           
+           parameter("", "P23", YesNo, number, 505,30,90)
+           attribute("label_8", "Hole diameter", label,"%s",  none, none, "0.0", "0.0",320,55)
+           parameter("", "P19_diameter", bolt_size, number,  505,55,90)
+           attribute("label_9", "Hole standard", label,"%s",  none, none, "0.0", "0.0",320,80)
+           parameter("", "P19_screwdin", bolt_standard, text, 455,80, 140)
+ // Modified by SteelFab,             parameter("", "P19_screwdin", bolt_standard, text, 505,80,90)
+           attribute("label_11", "Embed length", label,"%s",  none, none, "0.0", "0.0",320,105)
+           
+           parameter("", "P24", distance, number, 505,105,90)
+
+
+           parameter("", "P20", distance, number, 70,550,60)
+           parameter("", "P21", distance_list, text, 250,540,150)
+           
+           parameter("", "P22", distance, number, 400,275,60)
+       }
+
+   }
+}

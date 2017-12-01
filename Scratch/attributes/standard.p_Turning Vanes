@@ -1,0 +1,25 @@
+Turning Vanes_attributes.saveas_file "standard"
+Turning Vanes_attributes.get_menu "standard"
+Turning Vanes_attributes.name_enable 0
+Turning Vanes_attributes.ThirdHandle 0
+Turning Vanes_attributes.AtDepthValue 749.300000
+Turning Vanes_attributes.AtDepth 0
+Turning Vanes_attributes.RotationValue -0.000000
+Turning Vanes_attributes.Rotation 1
+Turning Vanes_attributes.OnPlaneValue 0.000000
+Turning Vanes_attributes.OnPlane 0
+Turning Vanes_attributes.P3 "PLATE"
+Turning Vanes_attributes.P17 "1"
+Turning Vanes_attributes.P16 "p"
+Turning Vanes_attributes.P15 "1"
+Turning Vanes_attributes.P14 "M"
+Turning Vanes_attributes.P8 304.800000
+Turning Vanes_attributes.P1 1219.200000
+Turning Vanes_attributes.P5 -2147483648.000000
+Turning Vanes_attributes.P2 0
+Turning Vanes_attributes.P9 4
+Turning Vanes_attributes.P12 1
+Turning Vanes_attributes.P11 304.800000
+Turning Vanes_attributes.P6 "A36"
+Turning Vanes_attributes.P7 "PL1219.2*20.637"
+Turning Vanes_attributes.P13 "TURNING VANE"

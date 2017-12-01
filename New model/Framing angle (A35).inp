@@ -1,0 +1,14 @@
+page("TeklaStructures","")
+{
+   macro(1, "Framing angle (A35)")
+   {
+       helpurl("TeklaInc_CC2.chm::/wood_connectors.html")
+       tab_page("", " Design ", 1)
+       {
+           parameter("90 Degree Tab", "P1", YesNo, number, 1)
+           parameter("Name / Design Name", "P3", string, text, 2)
+           parameter("Class", "P4", integer, number, 3)
+           parameter("Bought Out Item / Catalog Number", "P5", string, text, 4)
+       }
+   }
+}

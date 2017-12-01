@@ -1,0 +1,20 @@
+page("TeklaStructures","")
+{
+   joint(1, "Chevron_Bottom")
+   {
+       helpurl("TeklaInc_CC.chm::/engineering/chevron_bottom.html")
+       tab_page("", " Parameters ", 1)
+       {
+          profile ("Vertical. Braces",   P2,  , P3 , ,P1 ,1)
+	          parameter("", "P6", string, text, 385,25,40)
+          parameter("", "P7", integer, number, 455,25,40)
+          parameter("", "P8", string, text, 385,49,40)
+	          parameter("", "P9", integer, number, 455,49,40)
+           parameter("Finish", "P4", string, text, 4)
+           parameter("Class", "P5", string, text, 5)
+
+	   picture("usa_chevron_bm_ff",400, 360, 150, 150)
+
+       }
+   }
+}

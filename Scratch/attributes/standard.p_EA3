@@ -1,0 +1,14 @@
+EA3_attributes.saveas_file "standard"
+EA3_attributes.get_menu "standard"
+EA3_attributes.name_enable 1
+EA3_attributes.ThirdHandle 0
+EA3_attributes.AtDepthValue 0.000000
+EA3_attributes.AtDepth 2
+EA3_attributes.RotationValue -0.000000
+EA3_attributes.Rotation 1
+EA3_attributes.OnPlaneValue 31.750000
+EA3_attributes.OnPlane 0
+EA3_attributes.P4 "L2-1/2X2-1/2X1/4"
+EA3_attributes.P3 "A36"
+EA3_attributes.P2 ""
+EA3_attributes.P1 102

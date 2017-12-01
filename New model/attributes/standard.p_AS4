@@ -1,0 +1,14 @@
+AS4_attributes.saveas_file "standard"
+AS4_attributes.get_menu "standard"
+AS4_attributes.name_enable 0
+AS4_attributes.ThirdHandle 0
+AS4_attributes.AtDepthValue 0.000000
+AS4_attributes.AtDepth 0
+AS4_attributes.RotationValue -0.000000
+AS4_attributes.Rotation 1
+AS4_attributes.OnPlaneValue 0.000000
+AS4_attributes.OnPlane 0
+AS4_attributes.P4 "3/4''Ø HEAVY HEX NUT"
+AS4_attributes.P3 "A307"
+AS4_attributes.P2 ""
+AS4_attributes.P1 101

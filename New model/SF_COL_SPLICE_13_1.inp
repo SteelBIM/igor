@@ -1,0 +1,378 @@
+page("TeklaStructures","")
+{
+   joint(1, "SF_COL_SPLICE_13_1")
+   {
+       	tab_page("", " Picture ", 1)
+       	{
+           	attribute("", "t", label, "%s", no, none, "0.0", "0.0", 205,1)		
+	   	attribute("", "Prefix", label, "%s", no, none, "0.0", "0.0", 290,1)		
+	   	attribute("", "Start#", label, "%s", no, none, "0.0", "0.0", 370,1)		
+	   	attribute("", "Material", label, "%s", no, none, "0.0", "0.0", 450,1)		
+	   	attribute("", "Name", label, "%s", no, none, "0.0", "0.0", 630,1)		
+	   	attribute("", "Web plates", label, "%s", no, none, "0.0", "0.0", 15,25)		
+	   	parameter("", "tpl", distance, number, 190,25,60)
+           	parameter("", "pos3A", string, text, 290,25,40)
+           	parameter("", "pos3", integer, number, 370,25,40)
+		parameter("", "mat", material, text, 450,25,120)
+		parameter("", "partname", string, text, 630,25,140)
+		parameter("", "pos4A", string, text, 290,50,40)
+           	parameter("", "pos4", integer, number, 370,50,40)
+	   	attribute("", "Flange plates", label, "%s", no, none, "0.0", "0.0", 15,75)		
+	   	parameter("", "tpl2", distance, number, 190,75,60)
+           	parameter("", "pos5A", string, text, 290,75,40)
+           	parameter("", "pos5", integer, number, 370,75,40)
+		parameter("", "mat2", material, text, 450,75,120)
+		parameter("", "partname2", string, text, 630,75,140)
+		parameter("", "pos6A", string, text, 290,100,40)
+           	parameter("", "pos6", integer, number, 370,100,40)
+		
+		
+	   	attribute("", "Web shims", label, "%s", no, none, "0.0", "0.0", 15,135)		
+	   	parameter("", "tpl3", distance, number, 190,135,60)
+           	parameter("", "P9", distance, number, 190,135,60)
+           	parameter("", "pos7A", string, text, 290,135,40)
+           	parameter("", "pos7", integer, number, 370,135,40)
+		parameter("", "mat3", material, text, 450,135,120)
+		parameter("", "partname3", string, text, 630,135,140)
+		parameter("", "pos8A", string, text, 290,160,40)
+           	parameter("", "pos8", integer, number, 370,160,40)
+	   	attribute("", "Flange shims", label, "%s", no, none, "0.0", "0.0", 15,185)		
+	   	parameter("", "tpl4", distance, number, 190,185,60)
+           	parameter("", "P14", distance, number, 190,185,60)
+           	parameter("", "pos9A", string, text, 290,185,40)
+           	parameter("", "pos9", integer, number, 370,185,40)
+		parameter("", "mat4", material, text, 450,185,120)
+		parameter("", "partname4", string, text, 630,185,140)
+		parameter("", "pos10A", string, text, 290,210,40)
+           	parameter("", "pos10", integer, number, 370,210,40)
+
+  		attribute("", "Warning", label, "%s", no, none, "0.0", "0.0", 630,250)	
+		attribute("", "Check shim thickness to", label, "%s", no, none, "0.0", "0.0", 630,270)	
+		attribute("", "verify correct plate size", label, "%s", no, none, "0.0", "0.0", 630,290)	
+
+	   	attribute("xtab1", "Shim plate thickness", option,"%s", none, none,"0.0", "0.0", 370,250,175,"toggle_field:!tpl3=0;!tpl4=0;!P9=1,1;!P14=1;P14=0;P9=0")
+		{
+	  		value("Auto", 1)
+			value("User", 0)
+		}
+		attribute("atab1", "j_eliminate_web_plate", option,"%s",  none, none,  "0.0", "0.0", 370,280,175)
+		{ 
+	  		value("No", 1)
+			value("Remove Right", 0)
+			value("Remove Left", 0)
+			value("Remove Both",0)
+		}
+		attribute("dtab1", "j_lifting_hole", option,"%s", none, none,"0.0", "0.0", 370,310,175)
+		{
+	  		value("j_no", 1)
+			value("in Splice plates", 0)
+			value("in Primary", 0)
+		}
+
+		parameter("j_lifting_hole_dia",		                 ddist3, distance, number,370,340,175) 
+
+		
+
+		picture("SF_COLUMN_SP-1A",255,180,105,370)
+           	parameter("", P32, distance, number, 115, 382)
+	   	parameter("", P33, distance, number, 115, 420)	   	
+		parameter("", P30, distance, number, 115, 460)
+		parameter("", P31, distance, number, 115, 510)
+	   	parameter(" Clearance between parts",     dv, distance, number, 410, 482)
+		attribute("LABEL2", "Square Cut", label, "%s", no, none, "0.0", "0.0", 500,457)
+		attribute("P35", "", option,"%s", none, none,"0.0", "0.0", 500,482,90)
+		{
+	  		value("j_no", 1)
+			value("j_yes", 0)
+		}
+		parameter(" Thickness of packing plates", et, distance, number, 410,  382)
+		attribute("LABEL2", "Min. shim thickness", label, "%s", no, none, "0.0", "0.0", 480,382)
+		parameter(" Thickness of lower plates", fet, distance, number, 410,  562)
+		attribute("LABEL2", "Extra Flange shim thickness", label, "%s", no, none, "0.0", "0.0", 410,592)
+	   	attribute("flg_yn", "", option,"%s",  none, none, "0.0", "0.0",410,617,150) 
+		{
+	  		value("Add space", 0)
+			value("Add shim", 1)
+		}    
+	   	
+		parameter(" Thickness of lower plates2", wet, distance, number, 115,  562)
+		attribute("LABEL2", "Extra Web shim thickness", label, "%s", no, none, "0.0", "0.0", 115,592)
+	   	attribute("web_yn", "", option,"%s",  none, none, "0.0", "0.0",115,617,150) 
+		{
+	  		value("Add space", 0)
+			value("Add shim", 1)
+		}    
+       	}   
+	tab_page("","jd_Parameters",3)
+	{
+	
+	}
+	tab_page("","j_Web_Bolts", 5)
+	{
+		attribute("", "Bolt spacing", label2,"%s",  none, none, "0.0", "0.0",60,5)
+		parameter("", cwd1, distance, number, 60, 30, 80)
+		parameter("", cwd2, distance, number, 170, 30, 80)
+		parameter("", cwd3, distance, number, 280, 30, 80)
+		picture("SF_COLUMN_SPLICE-2", 300, 300, 20, 50)
+		parameter("", Lw1, distance, number, 60, 60, 60)
+		parameter("", Rw1, distance, number, 190, 60, 60)		
+		attribute("etab2", "", option,"%s",  none, none, "0.0", "0.0",295,104,120)
+		{
+	  	value("j_site", 1)
+		value("j_workshop", 0)
+		}		
+		parameter("", Tw1, distance, number, 295, 130, 60)
+		parameter("", Sw1, integer, number, 295, 156, 40)
+		parameter("", lw1, distance, number, 368, 156, 90)
+		parameter("", Bw1, distance, number, 295, 182, 60)
+		parameter("", Tw2, distance, number, 295, 215, 60)
+		parameter("", Sw2, integer, number, 295, 240, 40)
+		parameter("", lw2, distance, number, 368, 240, 90)
+		parameter("", Bw2, distance, number, 295, 265, 60)		
+		attribute("etab1", "", option,"%s",  none, none, "0.0", "0.0",295,290,120)
+		{
+	  	value("j_site", 1)
+		value("j_workshop", 0)
+		}
+		attribute("LABEL4", "If all web bolts are Field bolts ", label, "%s", no, none, "0.0", "0.0", 150,345)
+		attribute("LABEL3", "Web plates ship", label, "%s", no, none, "0.0", "0.0", 150,365)
+		attribute("plateship", "", option,"%s",  none, none, "0.0", "0.0",150,390,160,"toggle_field:plateshipB=1")
+		{
+	  	value("Loose", 1)
+		value("with Primary", 0)
+		}
+		attribute("plateshipB", "", option,"%s",  none, none, "0.0", "0.0",150,420,160,"toggle_field:plateship=1")
+		{
+	  	value("Loose", 1)
+		value("with Secondary", 0)
+		}
+		
+		picture("SF_COLUMN_SPLICE-4", 200, 140, 20, 540)
+		attribute("", "Shim edge distance", label2,"%s",  none, none, "0.0", "0.0",60,505)
+		parameter("", Lws1, distance, number, 90, 530, 60)
+		parameter("", Rws1, distance, number, 190, 530, 60)
+		parameter("", Tws1, distance, number, 300, 595, 60)
+		parameter("", Bws1, distance, number, 300, 650, 60)		
+
+		attribute("", "Upper Shaft Bolts", label2,"%s",  none, none, "0.0", "0.0",520,15)
+
+		attribute("", "j_bolt_size", label2,"%s",  none, none, "0.0", "0.0",520,45)
+		attribute("", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",520,70)
+		attribute("", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",520,95)
+		attribute("", "j_thread_in_material", label3,"%s",  none, none, "0.0", "0.0",520,120)
+		attribute("", "Oversize in", label3,"%s",  none, none, "0.0", "0.0",520,145)
+		attribute("", "Oversize dim", label3,"%s",  none, none, "0.0", "0.0",520,170)
+		parameter("",B1_diameter, bolt_size, number,660,45,90)
+		parameter("",B1_screwdin, bolt_standard, text,610,70,140)
+		parameter("",B1tolerance, distance, number,660,95,90)
+		parameter("",ovs_2, distance, number,660,170,90)
+		picture("jbp_bs_vert_line_left_2", 2, 300, 516, 40)
+		picture("jbp_bs_vert_line_right_2", 2, 110, 755, 40)
+		picture("jbp_bs_hor_line_1", 160, 2, 516, 40)
+		picture("jbp_bs_hor_line_2", 160, 2, 516, 202)
+		attribute("thread_in2", "", option,"%s",  none, none, "0.0", "0.0",660,120,90) 
+		{
+	  		value("j_no", 0)
+			value("j_yes", 1)
+		}
+		attribute("slot_in2", "", option,"%s",  none, none, "0.0", "0.0",660,145,90) 
+		{
+	  		value("None", 1)
+			value("Plate", 0)
+			value("Shim", 0)
+			value("Both", 0)
+		}
+		picture("jnt_bpic_bolt_parts_in_modify",100,100,760,40) /*picture_bolt_structure*/		
+		toggle_group(795,145,
+			"P100",-20,-20,"0",
+			"P101",  7,-20,"0",
+			/*"P102", 32,-20,"1",*/
+			"P103", 57,-20,"1")               /*=(P100*10000)+(P101*1000)+(P102*100)+(P103*10)*/
+		
+		picture("SF_EX_LEN",100,100,930,40)		
+		parameter("",exlen2, distance, number,973,90,60)
+				
+
+
+		
+		attribute("", "Lower Shaft Bolts", label2,"%s",  none, none, "0.0", "0.0",520,215)
+		
+		attribute("", "j_bolt_size", label2,"%s",  none, none, "0.0", "0.0",520,245)
+		attribute("", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",520,270)
+		attribute("", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",520,295)
+		attribute("", "j_thread_in_material", label3,"%s",  none, none, "0.0", "0.0",520,320)
+		attribute("", "Oversize in", label3,"%s",  none, none, "0.0", "0.0",520,345)
+		attribute("", "Oversize dim", label3,"%s",  none, none, "0.0", "0.0",520,370)
+		parameter("",B1a_diameter, bolt_size, number,660,245,90)
+		parameter("",B1a_screwdin, bolt_standard, text,610,270,140)
+		parameter("",B1atolerance, distance, number,660,295,90)
+		parameter("",ovs_2a, distance, number,660,370,90)
+		
+		picture("jbp_bs_vert_line_left_2", 2, 300, 516, 240)
+		picture("jbp_bs_vert_line_right_2", 2, 110, 755, 240)
+		picture("jbp_bs_hor_line_1", 160, 2, 516, 240)
+		picture("jbp_bs_hor_line_2", 160, 2, 516, 402)
+		attribute("thread_in2a", "", option,"%s",  none, none, "0.0", "0.0",660,320,90) 
+		{
+	  		value("j_no", 0)
+			value("j_yes", 1)
+		}
+		attribute("slot_in2a", "", option,"%s",  none, none, "0.0", "0.0",660,345,90) 
+		{
+	  		value("None", 1)
+			value("Plate", 0)
+			value("Shim", 0)
+			value("Both", 0)
+		}
+		picture("jnt_bpic_bolt_parts_in_modify",100,100,760,240) /*picture_bolt_structure*/		
+		toggle_group(795,345,
+			"P100a",-20,-20,"0",
+			"P101a",  7,-20,"0",
+			/*"P102a", 32,-20,"1",*/
+			"P103a", 57,-20,"1")               /*=(P100*10000)+(P101*1000)+(P102*100)+(P103*10)*/
+		
+		picture("SF_EX_LEN",100,100,930,240)		
+		parameter("",exlen2a, distance, number,973,290,60)
+				
+
+
+		
+
+	}
+	tab_page("","j_Fl_Bolts", 6)
+	{
+		attribute("", "Upper Shaft Bolts", label2,"%s",  none, none, "0.0", "0.0",520,15)
+		attribute("", "j_bolt_size", label2,"%s",  none, none, "0.0", "0.0",520,45)
+		attribute("", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",520,70)
+		attribute("", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",520,95)
+		attribute("", "j_thread_in_material", label3,"%s",  none, none, "0.0", "0.0",520,120)
+		attribute("", "Oversize in", label3,"%s",  none, none, "0.0", "0.0",520,145)
+		attribute("", "Oversize dim", label3,"%s",  none, none, "0.0", "0.0",520,170)
+		parameter("",B2_diameter, bolt_size, number,660,45,90)
+		parameter("",B2_screwdin, bolt_standard, text,610,70,140)
+		parameter("",B2tolerance, distance, number,660,95,90)
+		parameter("",ovs_1, distance, number,660,170,90)
+		picture("jbp_bs_vert_line_left_2", 2, 110, 516, 40)
+		picture("jbp_bs_vert_line_right_2", 2, 110, 755, 40)
+		picture("jbp_bs_hor_line_1", 160, 2, 516, 40)
+		picture("jbp_bs_hor_line_2", 160, 2, 516, 202)
+		attribute("thread_in", "", option,"%s",  none, none, "0.0", "0.0",660,120,90) 
+		{
+	  		value("j_no", 0)
+			value("j_yes", 1)
+		}
+		attribute("slot_in", "", option,"%s",  none, none, "0.0", "0.0",660,145,90) 
+		{
+	  		value("None", 1)
+			value("Plate", 0)
+			value("Shim", 0)
+			value("Both", 0)
+		}
+		picture("jnt_bpic_bolt_parts_in_modify",100,100,760,40) /*picture_bolt_structure*/		
+		toggle_group(795,145,
+			"P200",-20,-20,"0",
+			"P201",  7,-20,"0",
+			/*"P202", 32,-20,"1",*/
+			"P203", 57,-20,"1",
+			"P204",102,-40,"0")               /*=(P200*10000)+(P201*1000)+(P202*100)+(P203*10)+P204*/
+		
+		picture("SF_EX_LEN",100,100,930,40)		
+		parameter("",exlen, distance, number,973,90,60)
+
+		attribute("", "Lower Shaft Bolts", label2,"%s",  none, none, "0.0", "0.0",520,215)
+		attribute("", "j_bolt_size", label2,"%s",  none, none, "0.0", "0.0",520,245)
+		attribute("", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",520,270)
+		attribute("", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",520,295)
+		attribute("", "j_thread_in_material", label3,"%s",  none, none, "0.0", "0.0",520,320)
+		attribute("", "Oversize in", label3,"%s",  none, none, "0.0", "0.0",520,345)
+		attribute("", "Oversize dim", label3,"%s",  none, none, "0.0", "0.0",520,370)
+		parameter("",B2a_diameter, bolt_size, number,660,245,90)
+		parameter("",B2a_screwdin, bolt_standard, text,610,270,140)
+		parameter("",B2atolerance, distance, number,660,295,90)
+		parameter("",ovs_1a, distance, number,660,370,90)
+		picture("jbp_bs_vert_line_left_2", 2, 110, 516, 240)
+		picture("jbp_bs_vert_line_right_2", 2, 110, 755, 240)
+		picture("jbp_bs_hor_line_1", 160, 2, 516, 240)
+		picture("jbp_bs_hor_line_2", 160, 2, 516, 402)
+		attribute("thread_ina", "", option,"%s",  none, none, "0.0", "0.0",660,320,90) 
+		{
+	  		value("j_no", 0)
+			value("j_yes", 1)
+		}
+		attribute("slot_ina", "", option,"%s",  none, none, "0.0", "0.0",660,345,90) 
+		{
+	  		value("None", 1)
+			value("Plate", 0)
+			value("Shim", 0)
+			value("Both", 0)
+		}
+		picture("jnt_bpic_bolt_parts_in_modify",100,100,760,240) /*picture_bolt_structure*/		
+		toggle_group(795,345,
+			"P200a",-20,-20,"0",
+			"P201a",  7,-20,"0",
+			/*"P202a", 32,-20,"1",*/
+			"P203a", 57,-20,"1",
+			"P204a",102,-40,"0")               /*=(P200*10000)+(P201*1000)+(P202*100)+(P203*10)+P204*/
+		
+		picture("SF_EX_LEN",100,100,930,240)		
+		parameter("",exlena, distance, number,973,290,60)
+
+			
+		attribute("", "Bolt spacing", label2,"%s",  none, none, "0.0", "0.0",60,5)
+		parameter("", cfd1, distance, number, 60, 30, 80)
+		parameter("", cfd2, distance, number, 170, 30, 80)
+		parameter("", cfd3, distance, number, 280, 30, 80)
+		
+		picture("SF_COLUMN_SPLICE-5", 200, 140, 40, 555)
+		attribute("", "Shim edge distance", label2,"%s",  none, none, "0.0", "0.0",60,505)
+		parameter("", Lfs1, distance, number, 80, 530, 60)
+		parameter("", Rfs1, distance, number, 170, 530, 60)
+		parameter("", Tfs1, distance, number, 280, 595, 60)
+		parameter("", Bfs1, distance, number, 280, 670, 60)
+
+		
+		picture("SF_COLUMN_SPLICE-3", 300, 300, 30, 55)
+		parameter("", Lf1, distance, number, 60, 60 , 60)
+		parameter("", Rf1, distance, number, 190, 60, 60)
+
+		
+		attribute("etab3", "", option,"%s",  none, none, "0.0", "0.0",295,90,120)	/* MSt 240800 */
+		{
+	  	value("j_site", 1)
+		value("j_workshop", 0)
+		}	
+		parameter("", Tf1, distance, number, 295, 120, 60)
+		parameter("", Df1, integer, number, 295, 150, 40)
+		parameter("", Sf1, distance, number, 368, 150, 90)
+		parameter("", Bf1, distance, number, 295, 180, 60)
+
+		
+		parameter("", Tf2, distance, number, 295, 235, 60)
+		parameter("", Df2, integer, number, 295, 265, 40)
+		parameter("", Sf2, distance, number, 368, 265, 90)
+		parameter("", Bf2, distance, number, 295, 295, 60)
+
+		attribute("etab4", "", option,"%s",  none, none, "0.0", "0.0",295,325,120)	/* MSt 240800 */
+		{
+	  	value("j_site", 1) 
+		value("j_workshop", 0)
+		}
+		attribute("LABEL6", "If all flange bolts are Field bolts ", label, "%s", no, none, "0.0", "0.0", 150,355)
+		attribute("LABEL5", "Flange plates ship", label, "%s", no, none, "0.0", "0.0", 150,375)
+		attribute("plateship2", "", option,"%s",  none, none, "0.0", "0.0",150,400,160,"toggle_field:plateship2B=1")
+		{
+	  	value("Loose", 1)
+		value("with Primary", 0)
+		}
+		attribute("plateship2B", "", option,"%s",  none, none, "0.0", "0.0",150,430,160,"toggle_field:plateship2=1")
+		{
+	  	value("Loose", 1)
+		value("with Secondary", 0)
+		}
+
+	}
+
+
+
+   }
+}

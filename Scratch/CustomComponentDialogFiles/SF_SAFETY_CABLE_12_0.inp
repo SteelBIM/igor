@@ -1,0 +1,53 @@
+page("TeklaStructures","")
+{
+   detail(1, "SF_SAFETY_CABLE_12_0")
+	{
+
+	tab_page("", " Parameters ", 1)
+	{
+           		parameter("Concrete thickness", "concrete_thick", distance, number, 1)
+           		parameter("Dimension to 1st hole", "1st_dim", distance, number, 2)
+           		parameter("Dimension to 2nd hole", "2nd_dim", distance, number, 3)
+           		parameter("Dimension to 3rd hole", "3rd_dim", distance, number, 4)
+           		parameter("Dimension to 4th hole", "4th_dim", distance, number, 5)
+           		parameter("Hole diameter", "hole_dia_diameter", bolt_size, number, 6)
+           		parameter("Hole tolerance", "hole_tol", distance, number, 7)
+           		parameter("Hole type", "hole_dia_screwdin", bolt_standard, text, 8)
+           		picture("SF_Safety1",100, 75, 82, 220)   
+       	}
+       	
+	tab_page("", " Web Holes ", 2)
+      	{
+       		attribute("WEB_PICK", "Web holes location", option,"%s",  none, none, "0.0", "0.0", 375, 0, 160)
+           		{
+               			value("BS", 1)
+            	   		value("NS", 0)
+               			value("FS", 0)
+               			value("None", 0)
+           		}
+           		parameter("Gage for web holes", "web_gage", distance, number, 2)
+           		picture("SF_Safety2",100, 75, 82, 170) 
+       		}
+
+       	tab_page("", " Flange Holes ", 3)
+       	{
+       		attribute("FLG_PICK_A", "Flange holes location A face", option,"%s",  none, none, "0.0", "0.0", 375, 0, 160)
+       		{
+             			value("BS", 1)
+             			value("NS", 0)
+             			value("FS", 0)
+             			value("None", 0)
+        		}
+        		attribute("FLG_PICK_C", "Flange holes location C face", option,"%s",  none, none, "0.0", "0.0", 375, 28, 160)
+        		{
+             			value("BS", 1)
+             			value("NS", 0)
+             			value("FS", 0)
+             			value("None", 0)
+         		}
+         		parameter("Gage for flg holes", "flange_gage", distance, number, 3)
+  
+         		picture("SF_Safety3",100, 75, 82, 170)  
+       	}
+}
+}

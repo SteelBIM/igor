@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterDrawing xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CloneDimensions>Clone</CloneDimensions>
+  <CloneDrawingWelds>true</CloneDrawingWelds>
+  <CloneDwgAndDxf>true</CloneDwgAndDxf>
+  <CloneGraphics>true</CloneGraphics>
+  <CloneHyperlinks>true</CloneHyperlinks>
+  <CloneLevelMarks>true</CloneLevelMarks>
+  <CloneMarks>Clone</CloneMarks>
+  <CloneSymbols>true</CloneSymbols>
+  <CloneTextFiles>true</CloneTextFiles>
+  <CloneTexts>true</CloneTexts>
+  <CloneWeldMarks>Clone</CloneWeldMarks>
+  <Deleted>false</Deleted>
+  <Description>Creates a Plan drawing with classifiers.</Description>
+  <DetailedObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>concrete</FilterName>
+      <ObjectType>Part</ObjectType>
+      <SettingUsed>filter_Plan_concrete</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>Horz_Braces</FilterName>
+      <ObjectType>Part</ObjectType>
+      <SettingUsed>filter_Plan_Horz_Braces</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>HSS-TS</FilterName>
+      <ObjectType>Part</ObjectType>
+      <SettingUsed>filter_Plan_HSS-TS</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>joist</FilterName>
+      <ObjectType>Part</ObjectType>
+      <SettingUsed>filter_Plan_joist</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>L-C-MC</FilterName>
+      <ObjectType>Part</ObjectType>
+      <SettingUsed>filter_Plan_L-C-MC</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>Camber</FilterName>
+      <ObjectType>PartMark</ObjectType>
+      <SettingUsed>filter_Plan_Camber</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>columns</FilterName>
+      <ObjectType>PartMark</ObjectType>
+      <SettingUsed>filter_Plan_columns</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>concrete</FilterName>
+      <ObjectType>PartMark</ObjectType>
+      <SettingUsed>filter_Plan_concrete</SettingUsed>
+    </ObjectLevelSettings>
+    <ObjectLevelSettings>
+      <FilterName>joist</FilterName>
+      <ObjectType>PartMark</ObjectType>
+      <SettingUsed>filter_Plan_joist</SettingUsed>
+    </ObjectLevelSettings>
+  </DetailedObjectLevelSettings>
+  <Keywords />
+  <Name>Plan</Name>
+  <PictureFile />
+  <SourceType>StandardFile</SourceType>
+  <TargetType>GeneralArrangement</TargetType>
+  <UseDetailedObjectLevelSettings>true</UseDetailedObjectLevelSettings>
+</MasterDrawing>

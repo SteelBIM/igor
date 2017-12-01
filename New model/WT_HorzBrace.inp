@@ -1,0 +1,26 @@
+page("TeklaStructures","")
+{
+   joint(1, "WT_HorzBrace")
+   {
+       helpurl("TeklaInc_CC.chm::/engineering/wt_horz_brace.html")
+       tab_page("", " Parameters ", 1)
+       {
+	   picture("usa_wt_brace",200, 200, 400, 300)
+	   picture("usa_wt_brace2",200, 200, 50, 80)
+          profile ("Horz. Braces",   P5,  , P6 , ,P4 ,1)
+	          parameter("", "P9", string, text, 385,25,40)
+          parameter("", "P10", integer, number, 455,25,40)
+          parameter("", "P11", string, text, 385,49,40)
+          parameter("", "P12", integer, number, 455,49,40)
+
+	attribute("LABEL1", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)
+	parameter("", "P7", string, text, 830,26,80)
+	attribute("LABEL2", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)
+	parameter("", "P8", integer, number, 940,26,40)
+
+           parameter("", "P2", distance, number, 360,335,65)
+           parameter("", "P1", distance, number, 665,335,65)
+           parameter("", "P3", distance, number, 795, 278, 65)
+       }
+   }
+}

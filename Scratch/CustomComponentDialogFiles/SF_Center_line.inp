@@ -1,0 +1,9 @@
+page("TeklaStructures","")
+{
+   detail(1, "SF_Center_line")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+       }
+   }
+}

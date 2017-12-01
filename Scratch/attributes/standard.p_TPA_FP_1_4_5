@@ -1,0 +1,13 @@
+TPA_FP_1_4_5_attributes.saveas_file "standard"
+TPA_FP_1_4_5_attributes.get_menu "standard"
+TPA_FP_1_4_5_attributes.name_enable 0
+TPA_FP_1_4_5_attributes.ThirdHandle 0
+TPA_FP_1_4_5_attributes.AtDepthValue 0.000000
+TPA_FP_1_4_5_attributes.AtDepth 0
+TPA_FP_1_4_5_attributes.RotationValue -0.000000
+TPA_FP_1_4_5_attributes.Rotation 1
+TPA_FP_1_4_5_attributes.OnPlaneValue 0.000000
+TPA_FP_1_4_5_attributes.OnPlane 0
+TPA_FP_1_4_5_attributes.P3 "Misc_Undefined"
+TPA_FP_1_4_5_attributes.P2 ""
+TPA_FP_1_4_5_attributes.P1 100

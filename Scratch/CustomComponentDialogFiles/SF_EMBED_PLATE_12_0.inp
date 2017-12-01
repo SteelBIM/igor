@@ -1,0 +1,47 @@
+page("TeklaStructures","")
+{
+   joint(1, "SF_EMBED_PLATE_12_0")
+   {
+       tab_page("", " Picture", 1)
+       {
+	parameter("Cut Beam @ Embed", "P21", YesNo, number, 1)
+	parameter("Plate Name", "P22", string, text, 2)	
+        parameter("Plate Profile", "P1", profile, text, 3)
+	parameter("Part prefix", "P7", string, text, 4)
+	parameter("Assembly prefix", "P8", string, text, 5)
+	parameter("Plate Material", "P4", material, text, 6)
+	parameter("Plate Class", "P5", integer, number, 7)
+	parameter("", "P3", distance, number,280,220,70)
+	parameter("", "P6", distance, number,380,255,70)
+	parameter("", "P2", distance, number,380,360,70)
+	picture("Embed_plate",155, 155, 150, 250)
+       }
+
+tab_page("", " Studs ", 2)
+       {
+	parameter("Create studs", "P15", YesNo, number, 1)
+	parameter("Stud Size", "P14_size", stud_size, number, 2)
+	parameter("Stud Standard", "P14_standard", stud_standard, text, 3)
+	parameter("", "P16", distance, number,170,123,70)
+	parameter("", "P19", distance_list, text,60,300,100)
+	parameter("", "P20", distance, number,105,210,70)
+	parameter("", "P18", distance, number,355,425,70)
+	parameter("", "P17", distance_list, text,355,185,100)
+	picture("STUD",130, 190, 150, 200)
+	picture("sf_stud_length",120, 65, 250, 100)
+       }
+
+tab_page("", " Nail holes ", 3)
+       {
+
+           parameter("Create nail holes", "P9", YesNo, number, 1)
+           parameter("Auto (Size/Type) Nail hole", "P11", YesNo, number, 2)
+           parameter("", "P10_diameter", bolt_size, number,375,185,90)
+           parameter("", "P10_screwdin", bolt_standard, text, 325,215, 140)
+ // Modified by SteelFab,             parameter("", "P10_screwdin", bolt_standard, text,375,215,90)
+           parameter("", "P12", distance, number, 50,130,70)
+           parameter("", "P13", distance, number,250,102,70)
+           picture("nail",185, 185, 120, 100)
+       }
+   }
+}

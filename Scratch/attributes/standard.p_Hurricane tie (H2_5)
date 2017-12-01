@@ -1,0 +1,13 @@
+Hurricane tie (H2_5)_attributes.saveas_file "standard"
+Hurricane tie (H2_5)_attributes.get_menu "standard"
+Hurricane tie (H2_5)_attributes.name_enable 0
+Hurricane tie (H2_5)_attributes.ThirdHandle 2
+Hurricane tie (H2_5)_attributes.AtDepthValue 0.000000
+Hurricane tie (H2_5)_attributes.AtDepth 0
+Hurricane tie (H2_5)_attributes.RotationValue 0.000000
+Hurricane tie (H2_5)_attributes.Rotation 3
+Hurricane tie (H2_5)_attributes.OnPlaneValue 0.000000
+Hurricane tie (H2_5)_attributes.OnPlane 0
+Hurricane tie (H2_5)_attributes.P4 "H2.5"
+Hurricane tie (H2_5)_attributes.P2 5
+Hurricane tie (H2_5)_attributes.P1 "HURRICANE TIE"

@@ -1,0 +1,17 @@
+page("TeklaStructures","")
+{
+   detail(1, "Sf-Wall_14_1")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("BAR_SIZE", "P1", distance, number, 1)
+           parameter("Part Prefix", "X2", string, text, 2)
+           parameter("Start number", "X3", integer, number, 3)
+           parameter("H Space", "X4", distance, number, 4)
+           parameter("V dim", "X5", distance, number, 5)
+           parameter("Bar Radius", "X6", distance, number, 6)
+           parameter("Cut from top of rod", "X7", distance, number, 7)
+           parameter("Weld", "P2", welding_site, number, 8)
+       }
+   }
+}

@@ -1,0 +1,12 @@
+page("Xsteel","")
+{
+   detail(1, "X SHEAR LUG")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("LUG LENGTH", "P1", distance, number, 1)
+           parameter("LUG THICKNESS", "P2", distance, number, 2)
+           parameter("LUG WIDTH 'C'", "P3", distance, number, 3)
+       }
+   }
+}

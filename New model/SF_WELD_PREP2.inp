@@ -1,0 +1,47 @@
+page("TeklaStructures","")
+{
+   detail(1, "SF_WELD_PREP2")
+   {
+       tab_page("", " Top Prep ", 1)
+       {
+	   picture("Top_Rat")
+       }
+       tab_page("", " Bottom Prep ", 2)
+       {
+	   picture("Bottom_Rat")
+       }
+       tab_page("", " Parameters ", 3)
+       {
+	   parameter("Flange Angle", "Prep_Ang", angle, number, 1)
+           parameter("Rat Lenth", "RHOR1", distance, number, 2)
+           parameter("Rat Height", "Usr_Hgt", distance, number, 3)
+	   parameter("Radius", "Radius", distance, number, 4)
+           parameter("Top Clear", "BU_Clear", distance, number, 5)
+           parameter("Bottom Offset", "B_Oset", distance, number, 6)
+           parameter("Top Setback (For Cope)", "T_stbk", distance, number, 7)
+           parameter("Bottom Setback (For Cope)", "B_stbk", distance, number, 8)
+           attribute("B_COPE", "Direction of Bottom Prep?", option, "%s", no, none, "0.0", "0.0")
+                {
+                     value("Same As Top",1)
+                     value("Opposite To Top",0)
+                } 
+	   parameter("Backing bar add", "P1", distance, number, 10)
+           parameter("Backing bar offset", "P3", distance, number, 11)
+	   attribute("P4", "Backing bar Required?", option, "%s", no, none, "0.0", "0.0")
+                {
+                     value("No",1)
+                     value("Yes",0)
+                } 
+       }
+       tab_page("", " Web Cutback ", 5)
+       {
+	   attribute("P5", "Web cut Required?", option, "%s", no, none, "0.0", "0.0")
+                {
+                     value("No",1)
+                     value("Yes",0)
+                } 
+           parameter("Web Cutback", "Web_Cut", distance, number, 2)
+	   picture("Cut_Rat",100,75,75,50)
+       }
+   }
+}

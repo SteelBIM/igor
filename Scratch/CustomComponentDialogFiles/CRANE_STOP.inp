@@ -1,0 +1,11 @@
+page("TeklaStructures","")
+{
+   detail(1, "CRANE_STOP")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Stiffener to beam", "P1", distance, number, 1)
+           parameter("End of beam to stop", "D7", distance, number, 2)
+       }
+   }
+}

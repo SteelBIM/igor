@@ -1,0 +1,21 @@
+page("TeklaStructures","")
+{
+   macro(1, "Beam+Plate Lintel")
+   {
+       helpurl("TeklaInc_CC.chm::/default.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Beam profile", "P1", profile, text, 1)
+           parameter("Plate profile", "P2", profile, text, 2)
+           
+           picture("bmlintel", 315,196,20,133)
+           picture("bmlintelsect", 168,200,380,100)
+
+           parameter("", "P3", distance, number, 500,106,80)
+           parameter("", "D1", distance, number, 30,106,80)
+           parameter("", "D4", distance, number, 380,106,80)
+           parameter("", "D7", distance, number, 170,325,80)
+       }
+
+   }
+}

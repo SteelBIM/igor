@@ -1,0 +1,17 @@
+page("TeklaStructures","")
+{
+   detail(1, "Beam_Safety")
+   {
+       helpurl("TeklaInc_CC.chm::/default.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Flange Offset", "FOFF", distance, number, 1)
+           parameter("End Of Beam", "EOB", distance, number, 2)
+           parameter("NS Side Of Web", "SOW", YesNo, number, 3)
+           parameter("Oversize Hole", "Tolerance", distance, number, 4)
+           parameter("Bolt Diameter", "HD_diameter", bolt_size, number, 5)
+           parameter("Type", "HD_screwdin", bolt_standard, number, 6)
+           picture("Beam_safety",100, 75, 82, 170)
+       }
+   }
+}

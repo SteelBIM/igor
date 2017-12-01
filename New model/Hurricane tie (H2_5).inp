@@ -1,0 +1,13 @@
+page("TeklaStructures","")
+{
+   macro(1, "Hurricane tie (H2_5)")
+   {
+       helpurl("TeklaInc_CC2.chm::/wood_connectors.html")
+       tab_page("", " Design ", 1)
+       {
+           parameter("Design Name", "P1", string, text, 1)
+           parameter("Class", "P2", integer, number, 2)
+           parameter("Bought Out Item / Catalog Number", "P4", string, text, 3)
+       }
+   }
+}

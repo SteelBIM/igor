@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TeklaStructuresModels>
+<TeklaStructuresModels>
+    <Model>
+        <Name>Scratch</Name>
+        <Designer>N/A</Designer>
+        <Description> </Description>
+        <Version>21.1 Service Release 8</Version>
+        <Language>enu</Language>
+        <Template></Template>
+        <Environment>SteelFab</Environment>
+        <IsTemplate>FALSE</IsTemplate>
+        <XS_PROJECT>C:\TeklaStructures\21.1\environments\SteelFab\_Project</XS_PROJECT>
+        <XS_FIRM>C:\TeklaStructures\21.1\environments\SteelFab\_Firm</XS_FIRM>
+        <XS_SYSTEM>C:\TeklaStructures\21.1\environments\SteelFab\DrawingSettings\;C:\TeklaStructures\21.1\environments\SteelFab\Connections\;C:\TeklaStructures\21.1\environments\SteelFab\SFsystem\;C:\TeklaStructures\21.1\environments\SteelFab\system\;C:\TeklaStructures\21.1</XS_SYSTEM>
+    </Model>
+</TeklaStructuresModels>

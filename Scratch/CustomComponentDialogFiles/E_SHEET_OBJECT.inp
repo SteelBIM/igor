@@ -1,0 +1,12 @@
+page("TeklaStructures","")
+{
+   macro(1, "E_SHEET_OBJECT")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("E sheet prefix", "P1", string, text, 1)
+           parameter("E sheet number", "P2", integer, number, 2)
+           parameter("Class", "P3", integer, number, 3)
+       }
+   }
+}

@@ -1,0 +1,13 @@
+page("TeklaStructures","")
+{
+   macro(1, "Whitmore")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Parameter1", "P1", YesNo, number, 1)
+           parameter("Angle to draw", "P5", angle, number, 2)
+           parameter("Draw Side 1 lines", "P7", YesNo, number, 3)
+           parameter("Draw Side 2 lines", "P8", YesNo, number, 4)
+       }
+   }
+}

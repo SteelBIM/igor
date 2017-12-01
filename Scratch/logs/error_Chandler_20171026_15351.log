@@ -1,0 +1,3 @@
+ERROR:  26.10.2017 15:36:07 Could not find UI name for plugin named Beam
+ERROR:  26.10.2017 15:36:07 Could not find UI name for plugin named Beam
+ASSERT: 26.10.2017 15:36:09 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 84

@@ -1,0 +1,119 @@
+page("TeklaStructures","")
+{
+   joint(1, "SF_COL_CAP_13-1")
+   {
+       tab_page("", " Plate ", 1)
+       {
+           	attribute("", "t", label, "%s", no, none, "0.0", "0.0", 205,1)		
+	   	attribute("", "Prefix", label, "%s", no, none, "0.0", "0.0", 290,1)		
+	   	attribute("", "Start#", label, "%s", no, none, "0.0", "0.0", 370,1)		
+	   	attribute("", "Material", label, "%s", no, none, "0.0", "0.0", 450,1)		
+	   	attribute("", "Name", label, "%s", no, none, "0.0", "0.0", 630,1)		
+	   	attribute("", "Class", label, "%s", no, none, "0.0", "0.0", 830,1)		
+	   	
+		attribute("", "Cap plate", label, "%s", no, none, "0.0", "0.0", 15,25)
+	   	parameter("", "P6", distance, number, 190,25,60)
+
+           	parameter("", "partpos", string, text, 290,25,40)
+           	parameter("", "partstnum", integer, number, 370,25,40)
+		parameter("", "partmat", material, text, 450,25,120)
+		parameter("", "partname", string, text, 630,25,140)
+		parameter("", "partclass", integer, number, 830,25,40)
+		parameter("", "assembprefix", string, text, 290,50,40)
+           	parameter("", "assembstnum", integer, number, 370,50,40)
+		attribute("", "User Attribute-Secondary part note", label, "%s", no, none, "0.0", "0.0", 15,85)
+	   	parameter("", "partnote", string, text, 375,85,200)           
+		picture("SF_COLUMN_CAP-1", 290,199,105,150)
+           	parameter("", "bwqty", integer, number, 255,120,40)
+		parameter("", "bwspace", distance, number, 325,120,60)
+           	parameter("", "accorner", distance, number, 40,150,60)
+           	parameter("", "abcorner", distance, number, 520,150,60)
+           	parameter("", "Bolt_g", distance, number, 525,240,70)
+           	parameter("", "bacqty", integer, number, 40,400,40)
+           	parameter("", "bacspace", distance, number, 110,400,70)
+           	parameter("", "bacclear", distance, number, 220,425,60)
+           	parameter("", "bobclear", distance, number, 320,425,60)
+                parameter("", "bobqty", integer, number, 410,400,40)
+		parameter("", "bobspace", distance, number, 475,400,70)
+		parameter("", "b_edge", distance, number, 530,365,60)
+           	parameter("", "P_S_edge", distance, number, 40,340,60)
+
+
+
+		attribute("", "j_bolt_size", label2,"%s",  none, none, "0.0", "0.0",20,465)
+		attribute("", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",20,490)
+		attribute("", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",20,515)
+		attribute("", "j_thread_in_material", label3,"%s",  none, none, "0.0", "0.0",20,540)
+		attribute("", "Slot X -", label3,"%s",  none, none, "0.0", "0.0",20,565)
+		attribute("", "Slot Y |", label3,"%s",  none, none, "0.0", "0.0",20,590)
+		parameter("", "P1_diameter", bolt_size, number, 160,465,90)
+           	parameter("", "P1_screwdin", bolt_standard, text, 110,490,140)
+           	parameter("", "B_t", distance, number, 160,515,90)
+           	attribute("thread_in", "", option,"%s",  none, none, "0.0", "0.0",160,540,90) 
+			{
+	  			value("j_no", 0)
+				value("j_yes", 1)
+			}
+		parameter("", "slot_x", distance, number, 160,565,90)
+           	parameter("", "slot_y", distance, number, 160,590,90)
+           	parameter("", "P3", bolt_type, number, 160,615,90)
+           	
+		picture("SF_BLOCK", 190, 140, 16, 460)
+		
+		picture("jnt_bpic_bolt_parts_in_modify",100,100,260,460) /*picture_bolt_structure*/		
+		toggle_group(295,565,
+			"P100",-20,-20,"0",
+			"P101",  7,-20,"0",
+			"P102", 32,-20,"1",
+			"P103", 57,-20,"1")               /*=(P100*10000)+(P101*1000)+(P102*100)+(P103*10)*/
+		
+		picture("SF_EX_LEN",100,100,427,460)		
+		parameter("",b_ex_len, distance, number,470,510,60)
+		attribute("LABEL3", "Note: ''Set work plane to part top''", label, "%s", no, none, "0.0", "0.0", 650,150)
+		attribute("LABEL4", "of the main part.", label, "%s", no, none, "0.0", "0.0", 650,175)
+		attribute("LABEL3", "Set connection cone perpendicular", label, "%s", no, none, "0.0", "0.0", 650,200)
+		attribute("LABEL4", "to the main part", label, "%s", no, none, "0.0", "0.0", 650,225)
+		
+
+		
+           
+           
+           
+       }
+       tab_page("", " Welds ", 2)
+       {
+           	attribute("header1", "No       Size                 Type                         Length", label, "%s", no, none, "0.0", "0.0")
+		attribute("header2", "Wshop/site", label, "%s", no, none, "0.0", "0.0",395,0)
+	   
+		attribute("weld", "1", label, "%s", no, none, "0.0", "0.0",2)
+	   		parameter("", "wf1sfs", distance, number, 64,30,60)
+	   		parameter("", "wf1sns", distance, number, 64,56,60)
+	   		parameter("", "wf1tfs", weld_type, number, 160,30,100)
+	   		parameter("", "wf1tns", weld_type, number, 160,56,100)
+			parameter("", "wf1lfs", distance, number, 294,30,60)
+           		parameter("", "wf1lns", distance, number, 294,56,60)
+	   		parameter("", "wf1f", welding_site, number, 395,43,60)
+           
+		attribute("weld", "2", label, "%s", no, none, "0.0", "0.0",4)
+           		parameter("", "wf2sfs", distance, number, 64,85,60)
+           		parameter("", "wf2sns", distance, number, 64,111,60)
+           		parameter("", "wf2tfs", weld_type, number, 160,85,100)
+           		parameter("", "wf2tns", weld_type, number, 160,111,100)
+           		parameter("", "wf2lfs", distance, number, 294,85,60)
+           		parameter("", "wf2lns", distance, number, 294,111,60)
+           		parameter("", "wf2f", welding_site, number, 395,98,60)
+           
+		attribute("weld", "3", label, "%s", no, none, "0.0", "0.0",6)
+           		parameter("", "wwsfs", distance, number, 64,140,60)
+           		parameter("", "wwsns", distance, number, 64,166,60)
+           		parameter("", "wwtfs", weld_type, number, 160,140,100)
+           		parameter("", "wwtns", weld_type, number, 160,166,100)
+           		parameter("", "wwlfs", distance, number, 294,140,60)
+           		parameter("", "wwlns", distance, number, 294,166,60)
+           		parameter("", "wwf", welding_site, number, 395,153,60)
+		picture("SF_COLUMN_CAP-3", 134,142,105,250)
+           	
+        }
+
+   }
+}

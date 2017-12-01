@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   macro(1, "PNA Dowel (1_4)")
+   {
+        helpurl("TeklaInc_CC2.chm::/pna_accessories.html")	
+       tab_page("", " Parameters ", 1)
+       {
+       }
+   }
+}

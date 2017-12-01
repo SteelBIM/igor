@@ -1,0 +1,38 @@
+page("TeklaStructures","")
+{
+   macro(1, "Anchor-Headed Bolt")
+   {
+       helpurl("TeklaInc_CC2.chm::/anchor_rods.html")
+       tab_page("", " Parameters ", 1)
+       {
+		   part ("Anchor Rod", R1, , , R6, R3, R7, R2, 1) 
+		   attribute("LABEL_fin", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5) 
+		   attribute("LABEL_cls", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5) 
+		   parameter("", "R4", string, text, 830,26,80) 
+		   parameter("", "R5c", integer, number, 940,26,40) 
+
+		   attribute("LABEL3", "Thread Length", label2, "%s", no, none, "0.0", "0.0", 20, 73) 
+    		   parameter("", "P16", distance, number, 398,73,93) 
+		   
+		   attribute("LABEL4", "Full Thread?", label2, "%s", no, none, "0.0", "0.0", 20, 99) 
+		   attribute("P17", "", option, "%s", no, none, "0.0", "0.0", 398,99,93,"toggle_field:P16=1") 
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+        	    } 
+		   attribute("LABEL5", "Underside Nut and Washer?", label2, "%s", no, none, "0.0", "0.0", 20, 125) 
+		   attribute("O2", "", option, "%s", no, none, "0.0", "0.0", 398,125,93,"toggle_field:!usa_anchor_headed_bolt=1;!usa_anchor_headed_bolt2=0") 
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+        	} 				
+	       picture("usa_anchor_headed_bolt",175, 175, 345, 207)
+		   picture("usa_anchor_headed_bolt2",175, 175, 345, 207)			
+		   picture("usa_anchor_headed_bolt3",175, 175, 345, 157)
+           parameter("", "P1", distance, number, 254, 257, 108)
+           parameter("", "P2", distance, number, 570, 189, 108)		   
+           parameter("", "P3", distance, number, 254, 175, 108)
+
+       }
+   }
+}

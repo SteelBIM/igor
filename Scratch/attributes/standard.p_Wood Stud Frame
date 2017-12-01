@@ -1,0 +1,20 @@
+Wood Stud Frame_attributes.saveas_file "standard"
+Wood Stud Frame_attributes.get_menu "standard"
+Wood Stud Frame_attributes.name_enable 0
+Wood Stud Frame_attributes.ThirdHandle 0
+Wood Stud Frame_attributes.AtDepthValue 0.000000
+Wood Stud Frame_attributes.AtDepth 1
+Wood Stud Frame_attributes.RotationValue 0.000000
+Wood Stud Frame_attributes.Rotation 1
+Wood Stud Frame_attributes.OnPlaneValue 15.875000
+Wood Stud Frame_attributes.OnPlane 1
+Wood Stud Frame_attributes.OPT1 0
+Wood Stud Frame_attributes.P11 152.400000
+Wood Stud Frame_attributes.P9 0
+Wood Stud Frame_attributes.P16 "Yellow Poplar"
+Wood Stud Frame_attributes.P24 "S4S_2X6"
+Wood Stud Frame_attributes.P13 "Yellow Poplar"
+Wood Stud Frame_attributes.P23 "S4S_2X6"
+Wood Stud Frame_attributes.P12 "Yellow Poplar"
+Wood Stud Frame_attributes.P22 "S4S_2X6"
+Wood Stud Frame_attributes.P1 2438.400000

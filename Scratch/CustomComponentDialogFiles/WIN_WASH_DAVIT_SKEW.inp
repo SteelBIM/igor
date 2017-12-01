@@ -1,0 +1,13 @@
+page("TeklaStructures","")
+{
+   detail(1, "WIN_WASH_DAVIT_SKEW")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Bolt Y", "P1", distance, number, 1)
+           parameter("Bolt X", "P2", distance, number, 2)
+           parameter("Bolt Size", "bolt_diameter", bolt_size, number, 3)
+           parameter("Bolt Type", "bolt_screwdin", bolt_standard, text, 4)
+       }
+   }
+}

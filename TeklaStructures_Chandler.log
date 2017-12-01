@@ -1,0 +1,508 @@
+Reading initialization file 'C:\TeklaStructures\21.1\nt\bin\lang_enu.ini' (0)
+Initialization file 'C:\TeklaStructures\21.1\nt\bin\lang_enu.ini' read OK
+
+Language: English 
+Loaded Plugin Tekla.Structures.Model, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures.Catalogs, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures.Drawing, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures.Analysis, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures.DirectManipulation, Version=21.1.0.0!
+Loaded Plugin Tekla.Structures.Plugins, Version=21.1.0.0!
+Plug-in SF_BraceConnection in C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Connections\_SF_BraceConnection.dll loaded successfully. 
+Plug-in SF_ShearConnection in C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Connections\_SF_ShearConnection.dll loaded successfully. 
+Plug-in SteelFab_Design in C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Plugins\SteelFab_Design.dll loaded successfully. 
+Plug-in Drawing_Reference in C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\Drawing Reference.dll loaded successfully. 
+Plug-in SaveInfo in C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\SaveInfo.dll loaded successfully. 
+Plug-in Share_Model_Plugin in C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\Share_Model_Plugin.dll loaded successfully. 
+Plug-in Auto bolt in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\AutoBolt.dll loaded successfully. 
+Plug-in Gusset+T in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\BraceCutTGusset.dll loaded successfully. 
+Plug-in BVBSExport in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\BVBSExport.dll loaded successfully. 
+Plug-in CachePlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\CachePlugin.dll loaded successfully. 
+Plug-in CapPlateDetail in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\CapPlateDetail.dll loaded successfully. 
+Plug-in ExportIFC in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ExportIFC.dll loaded successfully. 
+Plug-in FloorLayoutBreakLine in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorLayout.Plugin.dll loaded successfully. 
+Plug-in FloorLayoutCipFiller in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorLayout.Plugin.dll loaded successfully. 
+Plug-in FloorLayoutDetailing in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorLayout.Plugin.dll loaded successfully. 
+Plug-in FloorLayout in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorLayout.Plugin.dll loaded successfully. 
+Plug-in FloorTool in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorTool.dll loaded successfully. 
+Plug-in RadialGrid in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\GridPlugins.dll loaded successfully. 
+Plug-in HollowCoreLiftingLoops in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\HollowCoreLiftingLoops.dll loaded successfully. 
+Plug-in HollowCoreOpeningTool in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\HollowCoreOpeningTool.dll loaded successfully. 
+Plug-in LayoutLinePlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\LayoutObjectPlugin.dll loaded successfully. 
+Plug-in LayoutPointPlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\LayoutObjectPlugin.dll loaded successfully. 
+Plug-in Linear array tool in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\LinearArrayTool.dll loaded successfully. 
+Plug-in MeshBars in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\MeshBars.dll loaded successfully. 
+Plug-in MeshBarsByArea in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\MeshBars.dll loaded successfully. 
+Plug-in MultiWireSizeMesh in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\MultiWireSizeMesh.dll loaded successfully. 
+Plug-in NoPaintArea in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\NoPaintArea.dll loaded successfully. 
+Plug-in OpeningFrame in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\OpeningFrame.dll loaded successfully. 
+Plug-in PipeDoublerPlate in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\PipeDoublerPlate.dll loaded successfully. 
+Plug-in Radial array tool in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RadialArrayTool.dll loaded successfully. 
+Plug-in RebarCoupler in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarCoupler.dll loaded successfully. 
+Plug-in RebarEndAnchor in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarCoupler.dll loaded successfully. 
+Plug-in RebarEndTrimming in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarCoupler.dll loaded successfully. 
+Plug-in Rebar hole in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarHole.dll loaded successfully. 
+Plug-in RebarShapeCatalog in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarShapeCatalog.dll loaded successfully. 
+Plug-in RingPlate in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RingPlate.dll loaded successfully. 
+Plug-in SandwichAndDoubleWall in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SandwichWallDoubleWall.dll loaded successfully. 
+Plug-in SandwichWallHorizontalSeam in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SandwichWallHorizontalSeam.dll loaded successfully. 
+Plug-in SandwichWallVerticalSeam in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SandwichWallVerticalSeam.dll loaded successfully. 
+Plug-in SandwichWallWindow in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SandwichWallWindow.dll loaded successfully. 
+Plug-in SeamApplicator in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SeamApplicator.dll loaded successfully. 
+Plug-in ShipLadder in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ShipLadder.dll loaded successfully. 
+Plug-in SlabReinforcementTool in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SlabReinforcementTool.dll loaded successfully. 
+Plug-in SlopingSlabDrainage in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SlopingSlabDrainage.dll loaded successfully. 
+Plug-in StrandPattern in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\StrandPattern.dll loaded successfully. 
+Plug-in Tube-Chamfer in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\TubePlugins.dll loaded successfully. 
+Plug-in Tube-MitreSaddle+Hole in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\TubePlugins.dll loaded successfully. 
+Plug-in Tube-Saddle+Hole in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\TubePlugins.dll loaded successfully. 
+Plug-in Tube-SlottedHole in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\TubePlugins.dll loaded successfully. 
+Plug-in Tube-CrossingSaddle in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\TubePlugins.dll loaded successfully. 
+Plug-in WallPanelReinforcement in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallPanelReinforcement.dll loaded successfully. 
+Plug-in WallRails in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallRails.dll loaded successfully. 
+Plug-in WallGrooveSeamDetail in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallToWallConnection.dll loaded successfully. 
+Plug-in WallToWallConnection in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallToWallConnection.dll loaded successfully. 
+Plug-in FindNumberCache in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FindNumber\FindNumberPlugin.dll loaded successfully. 
+Plug-in CopyModelDirectoryPlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ModelTemplates\ModelTemplates.dll loaded successfully. 
+Plug-in SaveAsModelTemplatePlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ModelTemplates\ModelTemplates.dll loaded successfully. 
+Plug-in DataRetrieverPlugin in C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ObjectBrowser\ProjectOrganizer.DataRetriever.dll loaded successfully. 
+Plug-in manager loaded with 58 plug-ins in 312 ms.
+No environment initialization file
+No role initialization file
+Reading initialization file 'C:\TeklaStructures\21.1\Environments\SteelFab\env_SteelFab_inc.ini' (0)
+Initialization file 'C:\TeklaStructures\21.1\Environments\SteelFab\env_SteelFab_inc.ini' read OK
+
+No company.ini file (XS_COMPANY_SETTINGS_DIRECTORY=)
+Reading initialization file 'C:\Users\Chandler\AppData\Local\Tekla Structures\21.1\UserSettings\user.ini' (0)
+Initialization file 'C:\Users\Chandler\AppData\Local\Tekla Structures\21.1\UserSettings\user.ini' read OK
+
+Path settings after reading all initialization files:
+  XS_SYSTEM=C:\TeklaStructures\21.1\environments\SteelFab\DrawingSettings\;C:\TeklaStructures\21.1\environments\SteelFab\Connections\;C:\TeklaStructures\21.1\environments\SteelFab\SFsystem\;C:\TeklaStructures\21.1\environments\SteelFab\system\;C:\TeklaStructures\21.1\environments\SteelFab\inp2\
+Error: Could not register A&D plugin  (DotNet)
+Error: Could not register A&D plugin  (OutProc)
+Information: Could not open application.inp: 'C:\TeklaStructures\21.1\applications\construsoft\application.inp'
+Reading 'xeng_page_1.inp' by Tekla Corporation...
+'xeng_page_1.inp' read OK
+Reading 'xeng_page_2.inp' by Tekla Corporation...
+'xeng_page_2.inp' read OK
+Reading 'ts_page_1.inp' by Tekla Corporation...
+'ts_page_1.inp' read OK
+Reading 'ts_page_2.inp' by Tekla Corporation...
+'ts_page_2.inp' read OK
+Reading 'ts_page_3.inp' by Tekla Corporation...
+'ts_page_3.inp' read OK
+Reading 'ts_page_4.inp' by Tekla Corporation...
+'ts_page_4.inp' read OK
+Reading 'ts_page_5.inp' by Tekla Corporation...
+'ts_page_5.inp' read OK
+Reading 'ts_page_6.inp' by Tekla Corporation...
+'ts_page_6.inp' read OK
+Reading 'ts_page_7.inp' by Tekla Corporation...
+'ts_page_7.inp' read OK
+Reading 'ts_page_8.inp' by Tekla Corporation...
+'ts_page_8.inp' read OK
+Reading 'ts_page_9_usimp.inp' by Tekla Corporation...
+'ts_page_9_usimp.inp' read OK
+Reading 'ts_page_10_usimp.inp' by Tekla Corporation...
+'ts_page_10_usimp.inp' read OK
+Reading 'ts_page_11.inp' by Tekla Corporation...
+'ts_page_11.inp' read OK
+Reading 'ts_page_12.inp' by Tekla Corporation...
+'ts_page_12.inp' read OK
+Reading 'system_macros.inp' by Tekla Corporation...
+'system_macros.inp' read OK
+Reading 'steel2.inp' by Tekla Corporation...
+'steel2.inp' read OK
+Reading 'steel4.inp' by Tekla Corporation...
+'steel4.inp' read OK
+Reading 'cold_rolled.inp' by Tekla Corporation...
+'cold_rolled.inp' read OK
+Reading 'albion.inp' by Tekla Corporation...
+'albion.inp' read OK
+Reading 'ayrshire.inp' by Tekla Corporation...
+'ayrshire.inp' read OK
+Reading 'hispan.inp' by Tekla Corporation...
+'hispan.inp' read OK
+Reading 'kingspan.inp' by Tekla Corporation...
+'kingspan.inp' read OK
+Reading 'metl-con.inp' by Tekla Corporation...
+'metl-con.inp' read OK
+Reading 'metsec.inp' by Tekla Corporation...
+'metsec.inp' read OK
+Reading 'reid.inp' by Tekla Corporation...
+'reid.inp' read OK
+Reading 'bw.inp' by Tekla Corporation...
+'bw.inp' read OK
+Reading 'steadmans.inp' by Tekla Corporation...
+'steadmans.inp' read OK
+Reading 'SteelSections.inp' by Tekla Corporation...
+'SteelSections.inp' read OK
+Reading 'ultrazed.inp' by Tekla Corporation...
+'ultrazed.inp' read OK
+Reading 'steel6.inp' by Tekla Corporation...
+'steel6.inp' read OK
+Reading 'steel5.inp' by Tekla Corporation...
+'steel5.inp' read OK
+Reading 'concrete1.inp' by Tekla Corporation...
+'concrete1.inp' read OK
+Reading 'concrete2.inp' by Tekla Corporation...
+'concrete2.inp' read OK
+Reading 'concrete3.inp' by Tekla Corporation...
+'concrete3.inp' read OK
+Reading 'xs3_page3.inp' by Tekla Corporation...
+'xs3_page3.inp' read OK
+Reading 'xs3_page2.inp' by Tekla Corporation...
+'xs3_page2.inp' read OK
+Reading 'xs3_page1.inp' by Tekla Corporation...
+'xs3_page1.inp' read OK
+Reading 'Tower.inp' by Tekla Corporation...
+'Tower.inp' read OK
+Reading 'export.inp' by Tekla Corporation...
+'export.inp' read OK
+Reading 'unitechnik.inp' by Tekla Corporation...
+'unitechnik.inp' read OK
+Reading 'elematic.inp' by Tekla Corporation...
+'elematic.inp' read OK
+Reading 'Gusset+T.inp' by Tekla Corporation...
+'Gusset+T.inp' read OK
+Reading 'OpeningFrame.inp' by Tekla Corporation...
+'OpeningFrame.inp' read OK
+Reading 'PipeDoublerPlate.inp' by Tekla Corporation...
+'PipeDoublerPlate.inp' read OK
+Reading 'SandwichAndDoubleWall.inp' by Tekla Corporation...
+'SandwichAndDoubleWall.inp' read OK
+Reading 'SandwichWallHorizontalSeam.inp' by Tekla Corporation...
+'SandwichWallHorizontalSeam.inp' read OK
+Reading 'SandwichWallVerticalSeam.inp' by Tekla Corporation...
+'SandwichWallVerticalSeam.inp' read OK
+Reading 'SandwichWallWindow.inp' by Tekla Corporation...
+'SandwichWallWindow.inp' read OK
+Reading 'SeamApplicator.inp' by Tekla Corporation...
+'SeamApplicator.inp' read OK
+Reading 'ShipLadder.inp' by Tekla Corporation...
+'ShipLadder.inp' read OK
+Reading 'SlopingSlabDrainage.inp' by Tekla Corporation...
+'SlopingSlabDrainage.inp' read OK
+Reading 'Tube-Chamfer.inp' by Tekla Corporation...
+'Tube-Chamfer.inp' read OK
+Reading 'Tube-CrossingSaddle.inp' by Tekla Corporation...
+'Tube-CrossingSaddle.inp' read OK
+Reading 'Tube-MitreSaddle+Hole.inp' by Tekla Corporation...
+'Tube-MitreSaddle+Hole.inp' read OK
+Reading 'Tube-Saddle+Hole.inp' by Tekla Corporation...
+'Tube-Saddle+Hole.inp' read OK
+Reading 'Tube-SlottedHole.inp' by Tekla Corporation...
+'Tube-SlottedHole.inp' read OK
+Reading 'WallRails.inp' by Tekla Corporation...
+'WallRails.inp' read OK
+Loaded 57 inp files in 1762 ms.
+Created a heap 0x0000000039400000 for solid buffer with size 349440000
+XS_SOLID_BUFFER_SIZE = 480000 (vertexes 11520000)
+LIBSOLID_INTERFACE initialized
+Licensing: Commercial
+Configuration: Steel Detailing
+F1 and Shift+F1 are not valid accelerators.
+Loading...DrawingPresentationPlugin.dll
+Successfully loaded DrawingPresentationPlugin.dll
+Drawing presentation plugin manager loaded in 46 ms.
+Loaded Plugin Tekla.Structures.ExceptionHandler, Culture=neutral, PublicKeyToken=2f04dbe497b71114, Custom=null!
+Loaded Plugin Tekla.Structures.Dialog, Version=21.1.0.0!
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Connections\_SF_BraceConnection.dll in 15.6 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Connections\_SF_ShearConnection.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SF Design\SF Plugins\SteelFab_Design.dll in 15.6001 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\Drawing Reference.dll in 15.6 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\SaveInfo.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\SteelFab\Share_Model_Plugin.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Drawings\COGDimensioning.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Drawings\RebarGroupDimensionPlugin.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Drawings\TestPlugCreaateOnly.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Drawings\TestPlugin.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\AutoBolt.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\BVBSExport.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\CachePlugin.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\CapPlateDetail.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\ExportIFC.dll in 15.6001 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorLayout.UI.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\FloorTool.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\GridPlugins.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\HollowCoreLiftingLoops.dll in 15.6 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\HollowCoreOpeningTool.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\LayoutObjectPlugin.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\LinearArrayTool.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\MeshBars.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\MultiWireSizeMesh.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\NoPaintArea.dll in 15.6 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RadialArrayTool.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarCoupler.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarHole.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RebarShapeCatalog.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\RingPlate.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\SlabReinforcementTool.dll in 15.6 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\StrandPattern.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallPanelReinforcement.dll in 0 ms
+Loaded plugin dialogs from C:\TeklaStructures\21.1\nt\bin\plugins\Tekla\Model\WallToWallConnection.dll in 0 ms
+Plugin dialogs loaded in 468.0008 ms
+Selected database: Z:\Electrolux Manufacturing Facility
+Loaded Plugin SessionFileRestore!
+Clearing database... Done.
+Clearing database... Done.
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\environment.db
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\options_model.db
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\options_drawings.db
+Reading initialization file 'C:\TeklaStructures\21.1\nt\bin\TeklaStructures.ini' (2)
+Initialization file 'C:\TeklaStructures\21.1\nt\bin\TeklaStructures.ini' read OK
+
+Reading initialization file 'C:\TeklaStructures\21.1\Environments\SteelFab\env_SteelFab_inc.ini' (2)
+Initialization file 'C:\TeklaStructures\21.1\Environments\SteelFab\env_SteelFab_inc.ini' read OK
+
+Reading initialization file 'C:\Users\Chandler\AppData\Local\Tekla Structures\21.1\UserSettings\user.ini' (2)
+Initialization file 'C:\Users\Chandler\AppData\Local\Tekla Structures\21.1\UserSettings\user.ini' read OK
+
+Path settings for model:
+  XS_SYSTEM=C:\TeklaStructures\21.1\environments\SteelFab\DrawingSettings\;C:\TeklaStructures\21.1\environments\SteelFab\Connections\;C:\TeklaStructures\21.1\environments\SteelFab\SFsystem\;C:\TeklaStructures\21.1\environments\SteelFab\system\;C:\TeklaStructures\21.1\environments\SteelFab\inp2\
+  XS_FIRM=C:\TeklaStructures\21.1\environments\SteelFab\_Firm
+  XS_PROJECT=C:\TeklaStructures\21.1\environments\SteelFab\_Project
+Open model started: 11:01:56
+Open database 'Z:\Electrolux Manufacturing Facility\Electrolux Manufacturing Facility.db1'
+Clock start: 11:01:56: Open model - Library database
+Read database: 'Z:\Electrolux Manufacturing Facility\xslib.db1'...
+Deleted 0 unnecessary foreign object rows
+Read database result: OK
+Clock end: (1779ms)
+Clock start: 11:01:57: Open model - Bolt DB
+Screw DB-file in use: C:\TeklaStructures\21.1\environments\SteelFab\profil\screwdb.db
+Clock end: (0ms)
+Clock start: 11:01:57: Open model - Bolt assembly DB
+Screw DB-file in use: C:\TeklaStructures\21.1\environments\SteelFab\profil\assdb.db
+Clock end: (0ms)
+Clock start: 11:01:57: Open model - Plotter DB
+Plotdip DB-file in use: Z:\Electrolux Manufacturing Facility\plotdev.bin
+Clock end: (31ms)
+Clock start: 11:01:57: Open model - Rebar DB
+Clock end: (0ms)
+Clock start: 11:01:57: Open model - Profile database
+DB-file in use: Z:\Electrolux Manufacturing Facility\profdb.bin
+Loaded: profitab.inp
+Clock end: (265ms)
+Clock start: 11:01:58: Open model - Material database
+Material database opened.
+Clock end: (0ms)
+Clock start: 11:01:58: Open model - Parametric profiles
+Clock end: (31ms)
+Clock start: 11:01:58: Open model - model
+Clearing database... Read database: 'Z:\Electrolux Manufacturing Facility\Electrolux Manufacturing Facility.db1'...
+Deleted 0 unnecessary foreign object rows
+Clearing database... Read database result: OK
+Clock end: (8112ms)
+Read database end
+Clock start: 11:02:06: Foreign object cache
+Clock end: (0ms)
+Clock start: 11:02:06: Brep storage
+Clock end: (32ms)
+Clock start: 11:02:06: Brep part collection manager
+Clock end: (0ms)
+Clock start: 11:02:06: Search tree
+Solid polybeam error: Cannot create frame points. Id: 49063
+Solid polybeam error: Cannot create frame points. Id: 49063
+Clock end: (2434ms)
+Clock start: 11:02:08: Continuous concrete model context
+Clock end: (0ms)
+Database opened successfully
+Clock start: 11:02:08: Model loaded - 01 Surfacing schema
+Clock end: (0ms)
+Clock start: 11:02:08: Model loaded - 02 Version check
+Clock end: (0ms)
+Clock start: 11:02:08: Model loaded - 03 Load local properties
+Clock end: (0ms)
+Clock start: 11:02:08: Model loaded - 04 Load .inp files
+Z:\Electrolux Manufacturing Facility\objects.inp does not exist
+C:\TeklaStructures\21.1\environments\SteelFab\_Project\objects.inp does not exist
+C:\TeklaStructures\21.1\environments\SteelFab\_Firm\objects.inp does not exist
+C:\TeklaStructures\21.1\environments\SteelFab\system\objects.inp loaded
+C:\TeklaStructures\21.1\environments\SteelFab\inp2\objects.inp loaded
+C:\TeklaStructures\21.1\environments\SteelFab\inp\objects.inp loaded
+Clock end: (187ms)
+Clock start: 11:02:08: Model loaded - 05 Assembly dialogs
+Clock end: (0ms)
+Clock start: 11:02:08: Model loaded - 06 Dialog attributes
+No such checkbutton 'xs_view_toolbar'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+No such checkbutton 'xs_view_toolbar'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+No such checkbutton 'xs_view_toolbar'
+Clock end: (624ms)
+Clock start: 11:02:09: Model loaded - 07 Weld catalog
+Clock end: (16ms)
+Clock start: 11:02:09: Model loaded - 08 Views
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+No such checkbutton 'xs_view_toolbar'
+Clock end: (109ms)
+Clock start: 11:02:09: Model loaded - 09 Create project
+Clock end: (0ms)
+Clock start: 11:02:09: Model loaded - 10 Privileges
+You are not allowed to change privileges via privileges.inp (12).
+Clock end: (0ms)
+Clock start: 11:02:09: Model loaded - 11 Parametric macro
+*** Solid error: Boolean UNION operation failed part1 Id: 61512 part2 Id: 61424
+    Solid failure position: ( 36572.03,   6668.29,   -204.04)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 61499 part2 Id: 61424
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 61499 part2 Id: 61424
+    Solid warning: Boolean Union part Id: 61424 was created with connect fall back and may contain overlapping volume and area.
+*** Solid error: Boolean UNION operation failed part1 Id: 63906 part2 Id: 63809
+    Solid failure position: ( 36538.00,   6940.39,     -0.00)
+    Solid info:  Trying with more accurate Boolean tolerances...
+    Solid warning:  More accurate Boolean made part  Id: 63809 successfully, but it may contain tiny features.
+*** Solid error: Boolean UNION operation failed part1 Id: 77207 part2 Id: 77140
+    Solid failure position: ( 11252.20,    182.53,   2714.63)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 77222 part2 Id: 77140
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 77207 part2 Id: 77140
+    Solid warning: Boolean Union part Id: 77140 was created with connect fall back and may contain overlapping volume and area.
+*** Solid error: Boolean UNION operation failed part1 Id: 77429 part2 Id: 77393
+*** Solid error: One of the Union 77393 solids creation failed.
+    Solid failure position: (   -21.03,    304.88,     39.12)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 77511 part2 Id: 77393
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 77421 part2 Id: 77393
+*** Solid error: One of the Union 77393 solids creation failed.
+    Solid warning: Boolean Union part Id: 77393 was created with connect fall back and may contain overlapping volume and area.
+*** Solid error: Boolean UNION operation failed part1 Id: 91165 part2 Id: 91071
+    Solid failure position: ( 12191.22,    995.37,   2705.15)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 91155 part2 Id: 91071
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 91165 part2 Id: 91071
+    Solid warning: Boolean Union part Id: 91071 was created with connect fall back and may contain overlapping volume and area.
+*** Solid error: Boolean UNION operation failed part1 Id: 91442 part2 Id: 91357
+    Solid failure position: ( 30658.17,    -46.04,   2084.46)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 91403 part2 Id: 91357
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 91403 part2 Id: 91357
+    Solid warning: Boolean Union part Id: 91357 was created with connect fall back and may contain overlapping volume and area.
+*** Solid error: Boolean UNION operation failed part1 Id: 206608 part2 Id: 206243
+    Solid failure position: ( 36546.61,   8602.91,   -186.00)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean CUT operation failed part1 Id: 206243 part2 Id: 206341
+*** Solid error: One of the Union 206243 solids creation failed.
+*** Solid error: Boolean UNION operation failed part1 Id: 206619 part2 Id: 206243
+*** Solid error: Boolean UNION operation failed part1 Id: 206608 part2 Id: 206243
+    Solid failure position: ( 36546.61,   8602.91,   -186.00)
+    Solid info:  Trying with more accurate Boolean tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 206570 part2 Id: 206243
+    Solid info:  Trying with more loose Boolean Union tolerances...
+*** Solid error: Boolean UNION operation failed part1 Id: 206608 part2 Id: 206243
+    Solid warning: Boolean Union part Id: 206243 was created with connect fall back and may contain overlapping volume and area.
+Solid geometry could not be created for object with Id: 206243
+Clock end: (7090ms)
+Clock start: 11:02:16: Model loaded - 12 Drawing attributes
+Clock end: (322ms)
+Clock start: 11:02:17: Model loaded - 13 Drawing list
+Clock end: (0ms)
+Clock start: 11:02:17: Model loaded - 14 Analysis
+Clock end: (227ms)
+Clock start: 11:02:17: Model loaded - 15 Enable menus
+Clock end: (415ms)
+Clock start: 11:02:17: Model loaded - 16 Component files
+Clock end: (0ms)
+Clock start: 11:02:17: Model loaded - 17 Component catalog
+Clock end: (0ms)
+Clock start: 11:02:17: Model loaded - 18 .NET callbacks
+Clock start: 11:02:17: Registered model loaded - View visibility
+Clock end: (0ms)
+Clock start: 11:02:17: Registered model loaded - Reload plugin dialogs
+Clock end: (0ms)
+Clock start: 11:02:17: Registered model loaded - OnModelLoad
+Clock end: (16ms)
+Clock start: 11:02:17: Registered model loaded - TM reload
+Loaded Plugin Tekla.Structures.SiteManager, Culture=neutral, PublicKeyToken=2f04dbe497b71114, Custom=null!
+Clock end: (17ms)
+Clock start: 11:02:17: Registered model loaded - DM interrupt
+Clock end: (0ms)
+Clock start: 11:02:17: Registered model loaded - WER
+Clock end: (0ms)
+Clock end: (33ms)
+Model directory: Z:\Electrolux Manufacturing Facility\
+Model GUID: ID59C6AB84-0002-8983-3135-303631393236
+Model creator user: Larry_9_1_11\Larry
+Current user: Chandler-PC\Chandler
+Open model ended: 11:02:17, took 21722ms
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+F1 and Shift+F1 are not valid accelerators.
+11 objects have been filtered out of the view
+0 objects have been hidden by the object representation settings
+0 objects have been temporarily hidden
+0 objects have been filtered out of the view
+0 objects have been hidden by the object representation settings
+0 objects have been temporarily hidden
+Drawing presentation plugin manager loaded in 0 ms.
+Loading presentation plug-in PlateTopView from C:\TEKLASTRUCTURES\21.1\NT\BIN\PLUGINS\TEKLA\DRAWINGS\PRESENTATION\PLATETOPVIEW.dll
+Timer: 'Open drawing' - 2901 ms
+Tool/dialogbar 'xs_analysis_toolbar' not found
+F1 and Shift+F1 are not valid accelerators.
+No such checkbutton 'xs_view_toolbar'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+F1 and Shift+F1 are not valid accelerators.
+Drawing presentation plugin manager loaded in 0 ms.
+Timer: 'Open drawing' - 3323 ms
+Tool/dialogbar 'xs_analysis_toolbar' not found
+F1 and Shift+F1 are not valid accelerators.
+No such checkbutton 'xs_view_toolbar'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+F1 and Shift+F1 are not valid accelerators.
+Drawing presentation plugin manager loaded in 0 ms.
+Timer: 'Open drawing' - 3369 ms
+Tool/dialogbar 'xs_analysis_toolbar' not found
+F1 and Shift+F1 are not valid accelerators.
+No such checkbutton 'xs_view_toolbar'
+No such checkbutton 'xs_tools_toolbar'
+No such checkbutton 'SteelFab_Design'
+F1 and Shift+F1 are not valid accelerators.
+Model save operation: model folder: Z:\Electrolux Manufacturing Facility\Electrolux Manufacturing Facility
+Read database: 'Z:\Electrolux Manufacturing Facility\Electrolux Manufacturing Facility.db1'...
+Deleted 0 unnecessary foreign object rows
+Read database result: OK
+Multi-user: local model and master model merged, history collected (403 ms)
+Model save operation: write model db: ok
+Model save operation: markfile: Z:\Electrolux Manufacturing Facility\xsdb.xs
+Model save operation: markfile creation: ok
+Model save operation: library db file: Z:\Electrolux Manufacturing Facility\xslib
+Read database: 'Z:\Electrolux Manufacturing Facility\xslib.db1'...
+Deleted 0 unnecessary foreign object rows
+Read database result: OK
+Saving Z:\Electrolux Manufacturing Facility\Chandler___environment.db.
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\environment.db
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\Chandler___environment.db
+Saving Z:\Electrolux Manufacturing Facility\environment.db.tmp.
+Saving Z:\Electrolux Manufacturing Facility\Chandler___options_model.db.
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\options_model.db
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\Chandler___options_model.db
+Saving Z:\Electrolux Manufacturing Facility\options_model.db.tmp.
+Saving Z:\Electrolux Manufacturing Facility\Chandler___options_drawings.db.
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\options_drawings.db
+Environment DB-file in use: Z:\Electrolux Manufacturing Facility\Chandler___options_drawings.db
+Saving Z:\Electrolux Manufacturing Facility\options_drawings.db.tmp.
+tsApplicationExit

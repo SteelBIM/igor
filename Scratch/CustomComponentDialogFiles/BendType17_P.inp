@@ -1,0 +1,15 @@
+page("TeklaStructures","")
+{
+   detail(1, "BendType17_P")
+   {
+       helpurl("TeklaInc_CC2.chm::/bent_rebar.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Rebar Size", "P1_size", rebar_size, text, 1)
+           parameter("Spacing", "P2", distance, number, 2)
+           parameter("Bottom Cover", "P3", distance, number, 3)
+           parameter("Side Cover", "P4", distance, number, 4)
+           parameter("Top Cover", "P5", distance, number, 5)
+       }
+   }
+}

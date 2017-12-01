@@ -1,0 +1,13 @@
+Reinforcing angle (L)_attributes.saveas_file "Opposite_Side"
+Reinforcing angle (L)_attributes.get_menu "Opposite_Side"
+Reinforcing angle (L)_attributes.name_enable 0
+Reinforcing angle (L)_attributes.ThirdHandle 0
+Reinforcing angle (L)_attributes.AtDepthValue 0.000000
+Reinforcing angle (L)_attributes.AtDepth 0
+Reinforcing angle (L)_attributes.RotationValue 90.000000
+Reinforcing angle (L)_attributes.Rotation 3
+Reinforcing angle (L)_attributes.OnPlaneValue 0.000000
+Reinforcing angle (L)_attributes.OnPlane 0
+Reinforcing angle (L)_attributes.P3 "L"
+Reinforcing angle (L)_attributes.P2 5
+Reinforcing angle (L)_attributes.P1 "REINFORCING ANGLE"

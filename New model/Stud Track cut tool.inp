@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   joint(1, "Stud Track cut tool")
+   {
+       helpurl("TeklaInc_CC2.chm::/metalstudframingcomponents.html")
+       tab_page("", " Parameters ", 1)
+       {
+       }
+   }
+}

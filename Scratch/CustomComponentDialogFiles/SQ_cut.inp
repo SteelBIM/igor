@@ -1,0 +1,9 @@
+page("TeklaStructures","")
+{
+   detail(1, "SQ_cut")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+       }
+   }
+}

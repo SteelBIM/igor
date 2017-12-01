@@ -1,0 +1,57 @@
+page("TeklaStructures","")
+{
+   detail(1, "Stud_Flange_v2")
+   {
+       helpurl("TeklaInc_CC.chm::/steel/stud_flange.html")
+       tab_page("", " Parameters ", 1)
+       {
+           picture("usa_stud_flange",100, 75, 70, 100)
+
+      attribute("LABEL1", "Stud Spacing Option", label, "%s", no, none, "0.0", "0.0", 19,0)
+	attribute("P3", "", option, "%s", no, none, "0.0", "0.0", 374,0,160,"toggle_field:!mspa=0;!P2=1;!LABEL2=1;!LABEL3=0;!LABEL4=1;!LABEL5=0")
+                {
+                     value("Number of Studs",1)
+                     value("Exact Spacing",0)
+                     value("Linear",0)
+                }
+      attribute("LABEL6", "Studs are Parts OR Studs are Bolts", label, "%s", no, none, "0.0", "0.0", 19,27)
+	attribute("P11", "", option, "%s", no, none, "0.0", "0.0", 374,27,160,"toggle_field:!D7=1;!P12_length=0;!P12_size=0;P14=1;P15=1;P16=1;P17=1;P18=1;P19=1;P20=1;!P12_standard=0")
+                {
+                     value("Studs are Parts",1)
+                     value("Studs are Bolts",0)
+                }
+           parameter("", "P12_standard", stud_standard, text, 575,27,160)
+           parameter("Site/Workshop", "site_work", bolt_type, number, 3)
+      attribute("LABEL2", "Exactly", label, "%s", no, none, "0.0", "0.0", 85,90)
+      attribute("LABEL3", "Minimum", label, "%s", no, none, "0.0", "0.0", 85,90)
+           parameter("", "min_start", distance, number, 90,115,50)
+           parameter("", "P2", integer, number, 170,115,40)
+      attribute("LABEL4", "Studs", label, "%s", no, none, "0.0", "0.0", 170,90)
+           parameter("", "mspa", distance, number, 240,115,80)
+      attribute("LABEL5", "Spacing", label, "%s", no, none, "0.0", "0.0", 250,90)
+           parameter("", "P12_size", stud_size, number, 200,232,80)
+           parameter("", "stud_gage", distance_list, text, 355,115,60)
+           parameter("", "offset", distance, number, 525,115,60)
+           parameter("", "P12_length", stud_length, number, 435,210,80)
+           parameter("", "D7", distance, number, 435,210.80)
+
+      attribute("LABEL7", "Studs", label, "%s", no, none, "0.0", "0.0", 19,400)
+      attribute("LABEL8", "Profile", label, "%s", no, none, "0.0", "0.0", 175,376)
+           parameter("", "P15", profile, text, 150,400,170)
+
+      attribute("LABEL9", "Pos_No", label, "%s", no, none, "0.0", "0.0", 398,376)
+           parameter("", "P19", string, text, 374,400,40)
+           parameter("", "P20", integer, number, 443,400,40)
+
+      attribute("LABEL10", "Material", label, "%s", no, none, "0.0", "0.0", 525,376)
+           parameter("", "P16", material, text, 510,400,100)
+
+      attribute("LABEL11", "Name", label, "%s", no, none, "0.0", "0.0", 682,376)
+           parameter("", "P14", string, text, 660,400,110)
+
+           parameter("Finish", "P17", string, text, 374,426,160)
+           parameter("Class", "P18", integer, number, 374,452,160)
+       }
+
+   }
+}

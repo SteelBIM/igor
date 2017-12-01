@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatalogSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DrawingView>Thumbnails</DrawingView>
+  <Folders>
+    <Folder Name="albl_Basic">
+      <Files>
+        <File>AnchorPlan.gd</File>
+        <File>Elevation.gd</File>
+        <File>Plan.gd</File>
+        <File>Single Part Drawings with BOM for All Parts.xdproc</File>
+        <File>Assembly Drawings with BOM.xdproc</File>
+        <File>Assembly Drawings for Multi Drawings.xdproc</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Assembly Drawings with BOM">
+      <Files>
+        <File>Assembly Drawings with BOM.xdproc</File>
+        <File>AncBolt_with_BOM.ad</File>
+        <File>Beam_with_BOM.ad</File>
+        <File>BraceAngle_with_BOM.ad</File>
+        <File>BraceHSS_with_BOM.ad</File>
+        <File>Brace_with_BOM.ad</File>
+        <File>Channel_with_BOM.ad</File>
+        <File>Column_with_BOM.ad</File>
+        <File>Handrail_with_BOM.ad</File>
+        <File>Hip_with_BOM.ad</File>
+        <File>Ladder_Caged_with_BOM.ad</File>
+        <File>Ladder_with_BOM.ad</File>
+        <File>No_Dims_with_BOM.ad</File>
+        <File>Purlin_with_BOM.ad</File>
+        <File>Rafter_with_BOM.ad</File>
+        <File>Stairs_with_BOM.ad</File>
+        <File>Stair_Stringers_with_BOM.ad</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Assembly Drawings for Multi-Drawings">
+      <Files>
+        <File>Assembly Drawings for Multi Drawings.xdproc</File>
+        <File>USAncBolt.ad</File>
+        <File>USBeam.ad</File>
+        <File>USBrace.ad</File>
+        <File>USBraceAngle.ad</File>
+        <File>USBraceHSS.ad</File>
+        <File>USChannel.ad</File>
+        <File>USColumn.ad</File>
+        <File>USHandrail.ad</File>
+        <File>USHip.ad</File>
+        <File>USLadder.ad</File>
+        <File>USLadder_Caged.ad</File>
+        <File>USNo_Dims.ad</File>
+        <File>USPurlin.ad</File>
+        <File>USStairs.ad</File>
+        <File>USStair_Stringers.ad</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="General Arrangement">
+      <Files>
+        <File>AnchorPlan.gd</File>
+        <File>AnchorPlan_Manually.gd</File>
+        <File>AnchorPlan_w-Details.gd</File>
+        <File>Elevation.gd</File>
+        <File>Plan.gd</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Single Part Drawings with BOM">
+      <Files>
+        <File>Single Part Drawings with BOM for All Parts.xdproc</File>
+        <File>Single Part Drawings with BOM.xdproc</File>
+        <File>Angle_with_BOM.wd</File>
+        <File>Beam_with_BOM.wd</File>
+        <File>BentPlate_with_BOM.wd</File>
+        <File>Brace_with_BOM.wd</File>
+        <File>Channel_with_BOM.wd</File>
+        <File>Column_with_BOM.wd</File>
+        <File>HSS_with_BOM.wd</File>
+        <File>Plate_with_BOM.wd</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Single Part Drawings for Gather Sheets">
+      <Files>
+        <File>Single Part Drawings of All Parts for Gather Sheets.xdproc</File>
+        <File>Single Part Drawings of Secondary Parts Only for Gather Sheets .xdproc</File>
+        <File>USAngle.wd</File>
+        <File>USBeam.wd</File>
+        <File>USBentPlate.wd</File>
+        <File>USBrace.wd</File>
+        <File>USChannel.wd</File>
+        <File>USColumn.wd</File>
+        <File>USHSS.wd</File>
+        <File>USPlate.wd</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Miscellaneous">
+      <Files>
+        <File>Handrail_with_BOM.ad</File>
+        <File>Ladder_Caged_with_BOM.ad</File>
+        <File>Ladder_with_BOM.ad</File>
+        <File>Stairs_with_BOM.ad</File>
+        <File>Stair_Stringers_with_BOM.ad</File>
+        <File>USHandrail.ad</File>
+        <File>USLadder.ad</File>
+        <File>USLadder_Caged.ad</File>
+        <File>USStairs.ad</File>
+        <File>USStair_Stringers.ad</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Wizards">
+      <Files>
+        <File>Assembly Drawings for Multi Drawings.xdproc</File>
+        <File>Assembly Drawings with BOM.xdproc</File>
+        <File>Single Part Drawings of All Parts for Gather Sheets.xdproc</File>
+        <File>Single Part Drawings of Secondary Parts Only for Gather Sheets .xdproc</File>
+        <File>Single Part Drawings with BOM for All Parts.xdproc</File>
+        <File>Single Part Drawings with BOM.xdproc</File>
+      </Files>
+      <Folders />
+    </Folder>
+  </Folders>
+  <ForeignModels />
+  <IncludeRulesets>true</IncludeRulesets>
+  <IncludeStandards>true</IncludeStandards>
+  <IncludeTemplates>true</IncludeTemplates>
+  <LastSearchStrings>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </LastSearchStrings>
+  <SearchString />
+  <SelectedCategory>albl_Basic</SelectedCategory>
+  <SelectedFolder>General Arrangement</SelectedFolder>
+  <ShowDescription>false</ShowDescription>
+  <StoredSearches>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_All</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Basic</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder>albl_Basic</TargetFolder>
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>true</Hidden>
+      <Name>==========</Name>
+      <Search />
+      <SourceType>TemplateDrawing</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_General_arrangement_drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>GeneralArrangement</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Assembly_drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>Assembly</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Single_part_drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>SinglePart</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>true</Hidden>
+      <Name>==========</Name>
+      <Search />
+      <SourceType>TemplateDrawing</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Cloning_templates</Name>
+      <Search />
+      <SourceType>TemplateDrawing</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Saved_settings</Name>
+      <Search />
+      <SourceType>StandardFile</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>albl_Rule_sets__wizards_</Name>
+      <Search />
+      <SourceType>RuleSet</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+  </StoredSearches>
+  <WorkingMode>Browse</WorkingMode>
+</CatalogSettings>

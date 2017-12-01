@@ -1,0 +1,14 @@
+page("TeklaStructures","")
+{
+   detail(1, "OUTRIGGER")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("FLANGE SETBACK", "D7", distance, number, 1)
+           parameter("EDGE OF SLAB", "D12", distance, number, 2)
+           parameter("VERTICAL DROP", "D14", distance, number, 3)
+           parameter("PLATE THICKNESS", "P5", distance, number, 4)
+           parameter("PLATE GRADE", "P8", material, text, 5)
+       }
+   }
+}

@@ -1,0 +1,15 @@
+Panel Form_attributes.saveas_file "NS_standard"
+Panel Form_attributes.get_menu "NS_standard"
+Panel Form_attributes.name_enable 1
+Panel Form_attributes.ThirdHandle 0
+Panel Form_attributes.AtDepthValue 0.000000
+Panel Form_attributes.AtDepth 2
+Panel Form_attributes.RotationValue -0.000000
+Panel Form_attributes.Rotation 1
+Panel Form_attributes.OnPlaneValue 0.000000
+Panel Form_attributes.OnPlane 2
+Panel Form_attributes.P5 ""
+Panel Form_attributes.P4 ""
+Panel Form_attributes.P3 ""
+Panel Form_attributes.A1 -2147483648.000000
+Panel Form_attributes.D1 914.400000

@@ -1,0 +1,26 @@
+page("TeklaStructures","")
+{
+   joint(1, "SF_SAG_ROD_12_0")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Nut Profile", "P1", profile, text, 1)
+           parameter("Washer Profile", "P2", profile, text, 2)
+           parameter("Thread @ end", "P3", distance, number, 3)
+           parameter("Thread", "P4", distance, number, 4)
+           parameter("Washer Grade", "P5", material, text, 5)
+           parameter("Nut Grade", "P6", material, text, 6)
+           parameter("Part prefix (nut)", "P7", string, text, 7)
+           parameter("Start # (nut)", "P8", integer, number, 8)
+           parameter("Part prefix (washer)", "P9", string, text, 9)
+           parameter("Start # (washer)", "P10", integer, number, 10)
+           parameter("Assembly prefix (nut)", "P11", string, text, 11)
+           parameter("Start # (nut)", "P12", integer, number, 12)
+           parameter("Assembly prefix (washer)", "P13", string, text, 13)
+           parameter("Start # (washer)", "P14", integer, number, 14)
+           parameter("Hole Tolerance", "P15", distance, number, 15)
+           parameter("Web-no  Flange-yes", "P17", YesNo, number, 16)
+           parameter("D8.NUT.GIRT", "D8", distance, number, 17)
+       }
+   }
+}

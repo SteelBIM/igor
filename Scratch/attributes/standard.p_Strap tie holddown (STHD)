@@ -1,0 +1,13 @@
+Strap tie holddown (STHD)_attributes.saveas_file "standard"
+Strap tie holddown (STHD)_attributes.get_menu "standard"
+Strap tie holddown (STHD)_attributes.name_enable 0
+Strap tie holddown (STHD)_attributes.ThirdHandle 2
+Strap tie holddown (STHD)_attributes.AtDepthValue 0.000000
+Strap tie holddown (STHD)_attributes.AtDepth 0
+Strap tie holddown (STHD)_attributes.RotationValue 0.000000
+Strap tie holddown (STHD)_attributes.Rotation 3
+Strap tie holddown (STHD)_attributes.OnPlaneValue 0.000000
+Strap tie holddown (STHD)_attributes.OnPlane 0
+Strap tie holddown (STHD)_attributes.P4 "STHD"
+Strap tie holddown (STHD)_attributes.P2 5
+Strap tie holddown (STHD)_attributes.P1 "STRAP TIE HOLDOWN"

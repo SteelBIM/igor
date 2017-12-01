@@ -1,0 +1,13 @@
+NVS100_attributes.saveas_file "standard"
+NVS100_attributes.get_menu "standard"
+NVS100_attributes.name_enable 0
+NVS100_attributes.ThirdHandle 0
+NVS100_attributes.AtDepthValue 0.000000
+NVS100_attributes.AtDepth 0
+NVS100_attributes.RotationValue -0.000000
+NVS100_attributes.Rotation 1
+NVS100_attributes.OnPlaneValue 0.000000
+NVS100_attributes.OnPlane 0
+NVS100_attributes.P3 ""
+NVS100_attributes.P2 ""
+NVS100_attributes.P1 -2147483648

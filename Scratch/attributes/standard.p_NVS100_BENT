@@ -1,0 +1,13 @@
+NVS100_BENT_attributes.saveas_file "standard"
+NVS100_BENT_attributes.get_menu "standard"
+NVS100_BENT_attributes.name_enable 0
+NVS100_BENT_attributes.ThirdHandle 0
+NVS100_BENT_attributes.AtDepthValue 0.000000
+NVS100_BENT_attributes.AtDepth 0
+NVS100_BENT_attributes.RotationValue -0.000000
+NVS100_BENT_attributes.Rotation 1
+NVS100_BENT_attributes.OnPlaneValue 0.000000
+NVS100_BENT_attributes.OnPlane 0
+NVS100_BENT_attributes.P3 ""
+NVS100_BENT_attributes.P2 ""
+NVS100_BENT_attributes.P1 -2147483648

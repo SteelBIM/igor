@@ -1,0 +1,70 @@
+
+*** Numbering (Chandler): Wed Oct 25 14:18:11 2017
+  Modified numbering
+  Compare modified to old parts
+  Compare new to old parts
+  Holes considered
+  Part names considered
+  Beam orientation ignored
+  Column orientation
+  Reinforcing bars considered
+  Embeds considered
+  Surface treatments considered
+  Welds ignored
+  Automatic cloning enabled
+  Synchronize with master model disabled
+  Tolerance: 0.793750
+  SteelTolerance: 0.793750
+  ConcreteTolerance: 6.350000
+  RebarTolerance: 6.151562
+  WeldSeamPropertyTolerance: 0.000000
+Numbering 5 parts.
+Part    guid: ID59E1106C-0000-2354-3135-303739323231  series:w/1  w/0 -> w/1
+Part    guid: ID59E1106C-0000-2358-3135-303739323232  series:r/1  r/0 -> r/1
+Part    guid: ID59E1106C-0000-235C-3135-303739323232  series:j/1  j/0 -> j/1
+Part    guid: ID59E1106C-0000-25DE-3135-303739323238  series:a/1  a/0 -> a/1
+Part    guid: ID59E1106C-0000-25E2-3135-303739323238  series:a/1  a/0 -> a/2
+Part numbering done in 0s
+Numbering 3 assemblies or assembly families
+Assembly guid: ID59E1106C-0000-235B-3135-303739323232  series:C/1  C/0 -> C/1
+Assembly guid: ID59E1106C-0000-2357-3135-303739323232  series:C/1  C/0 -> C/2
+Assembly guid: ID59E1106C-0000-24D6-3135-303739323235  series:J/1  J/0 -> J/1
+Assembly numbering done in 0s
+Numbering 3 assemblies or assembly families
+Family numbering done in 0s
+*** Operation finished Wed Oct 25 14:18:11 2017
+
+*** Numbering (Chandler): Wed Oct 25 15:36:28 2017
+  Modified numbering
+  Compare modified to old parts
+  Compare new to old parts
+  Holes considered
+  Part names considered
+  Beam orientation ignored
+  Column orientation
+  Reinforcing bars considered
+  Embeds considered
+  Surface treatments considered
+  Welds ignored
+  Automatic cloning enabled
+  Synchronize with master model disabled
+  Tolerance: 0.793750
+  SteelTolerance: 0.793750
+  ConcreteTolerance: 6.350000
+  RebarTolerance: 6.151562
+  WeldSeamPropertyTolerance: 0.000000
+Numbering 5 parts.
+Part    guid: ID59E1106C-0000-2354-3135-303739323231  series:w/1  w/0 -> w/1
+Part    guid: ID59E1106C-0000-2358-3135-303739323232  series:r/1  r/0 -> r/1
+Part    guid: ID59E1106C-0000-235C-3135-303739323232  series:j/1  j/0 -> j/1
+Part    guid: ID59E1106C-0000-25DE-3135-303739323238  series:a/1  a/0 -> a/1
+Part    guid: ID59E1106C-0000-25E2-3135-303739323238  series:a/1  a/0 -> a/2
+Part numbering done in 0s
+Numbering 3 assemblies or assembly families
+Assembly guid: ID59E1106C-0000-235B-3135-303739323232  series:C/1  C/0 -> C/1
+Assembly guid: ID59E1106C-0000-2357-3135-303739323232  series:C/1  C/0 -> C/2
+Assembly guid: ID59E1106C-0000-24D6-3135-303739323235  series:J/1  J/0 -> J/1
+Assembly numbering done in 0s
+Numbering 3 assemblies or assembly families
+Family numbering done in 0s
+*** Operation finished Wed Oct 25 15:36:28 2017

@@ -1,0 +1,17 @@
+page("TeklaStructures","")
+{
+   detail(1, "BendTypeT5_P")
+   {
+       helpurl("TeklaInc_CC2.chm::/bent_rebar.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Rebar Grade", "P1_grade", rebar_grade, text, 1)
+           parameter("Rebar Size", "P1_size", rebar_size, text, 2)
+           parameter("Rebar Radius", "P1_radius", rebar_radius, text, 3)
+           parameter("Top/Bottom End Cover", "P2", distance, number, 4)
+           parameter("Spacing", "P3", distance, number, 5)
+           parameter("Horizontal Dist from Face", "P5", distance, number, 6)
+           parameter("Side Cover", "P6", distance, number, 7)
+       }
+   }
+}

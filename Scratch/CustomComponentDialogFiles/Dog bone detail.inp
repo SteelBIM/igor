@@ -1,0 +1,18 @@
+page("TeklaStructures","")
+{
+   detail(1, "Dog bone detail")
+   {
+       helpurl("TeklaInc_CC.chm::/default.html")
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("a [default a=0.625*Flange width]", "P4", distance, number, 1)
+	     attribute("a-note", "[a - range = 0.5 to 0.75 * Flange width]", label, "%s", no, none, "0.0", "0.0",2)
+           parameter("b [default a=0.2*Flange width]", "P17", distance, number, 3)
+	     attribute("b-note", "[b - range < 0.25*Flange width]", label, "%s", no, none, "0.0", "0.0",4)
+           parameter("c [default c=0.75*Beam depth]", "P10", distance, number, 5)
+	     attribute("c-note", "[c - range = 0.5 to 0.75 * Beam depth]", label, "%s", no, none, "0.0", "0.0",6)
+
+		picture("dogbone", 499,300,40,200)
+       }
+   }
+}

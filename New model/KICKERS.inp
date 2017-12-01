@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   joint(1, "KICKERS")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("ANGLE PROFILE", "P1", profile, text, 1)
+       }
+   }
+}

@@ -1,0 +1,25 @@
+page("TeklaStructures","")
+{
+   joint(1, "JOIST_PANEL")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Embed Profile", "P20", profile, text, 1)
+           parameter("Embed  Width", "P1", distance, number, 2)
+           parameter("Stud Diameter", "P30_size", stud_size, number, 3)
+           parameter("Stud Type", "P30_standard", stud_standard, text, 4)
+           parameter("Stud Length", "P30_length", distance, number, 5)
+           parameter("Stud Spacing", "P21", distance, number, 6)
+           parameter("Pocket Height", "P3", distance, number, 7)
+           parameter("Pocket Width", "P4", distance, number, 8)
+           parameter("Pocket Depth", "P18", distance, number, 9)
+           parameter("Seat Depth", "P9", distance, number, 10)
+           parameter("Joist Bearing Length", "D38", distance, number, 11)
+           parameter("Bottom Chord Clear", "P7", distance, number, 12)
+           parameter("Joist Chord Depth", "P14", distance, number, 13)
+           parameter("Dimension to 1st panel", "P15", distance, number, 14)
+           attribute("LABEL2", "(min Bottom Chord Clear + 6'') ", label, "%s", no, none, "0.0", "0.0", 15,385)
+				
+       }
+   }
+}

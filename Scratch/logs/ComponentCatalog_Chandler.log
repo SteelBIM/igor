@@ -1,0 +1,67 @@
+10/13/2017 3:14:30 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/13/2017 3:14:30 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SF_CopeConnection source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml
+10/13/2017 3:14:31 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml
+10/16/2017 10:39:15 AM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/16/2017 10:39:15 AM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+10/16/2017 10:39:16 AM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/16/2017 10:39:16 AM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/16/2017 10:39:16 AM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/16/2017 5:26:00 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/16/2017 5:26:00 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+10/16/2017 5:26:01 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/16/2017 5:26:01 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/16/2017 5:26:01 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+10/25/2017 2:18:00 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/25/2017 2:18:00 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+10/25/2017 2:18:00 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?Update Multiple SmartConnections?GLOBAL source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml
+10/25/2017 3:36:17 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/25/2017 3:36:17 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+10/26/2017 3:35:07 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+10/26/2017 3:35:07 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/3/2017 12:24:45 PM Information:Previous log file path: 'Z:\Electrolux Manufacturing Facility\logs\ComponentCatalog_Chandler.log'
+11/3/2017 12:24:45 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/3/2017 12:24:45 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/3/2017 12:24:45 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/3/2017 12:24:45 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/3/2017 12:28:54 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/3/2017 12:28:54 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/3/2017 1:30:52 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/3/2017 1:30:52 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/3/2017 1:30:52 PM Error:Item: test is invalid. Source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml Reason: File: C:\TeklaStructures\21.1\environments\usimp\macros\modeling\test.cs cannot be found.
+11/3/2017 1:30:52 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?test?GLOBAL source: C:\TeklaStructuresModels\Scratch\ComponentCatalog.xml
+11/8/2017 1:50:45 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/8/2017 1:50:45 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/8/2017 2:01:59 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/8/2017 2:01:59 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/8/2017 2:01:59 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/8/2017 2:01:59 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/8/2017 2:01:59 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/10/2017 12:58:25 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/10/2017 12:58:25 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/27/2017 12:16:30 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/27/2017 12:16:30 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/27/2017 12:17:40 PM Information:Previous log file path: 'C:\Users\Chandler\AppData\Local\Tekla\Tekla Structures 21.1\CatalogTree\21.1.0.0\ComponentCatalog_Chandler.log'
+11/27/2017 12:17:40 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/27/2017 12:17:40 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/27/2017 12:17:40 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/27/2017 12:17:40 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/27/2017 12:22:07 PM Information:Previous log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/27/2017 12:22:07 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/27/2017 12:22:07 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/27/2017 12:22:07 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/27/2017 12:22:07 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 11:31:35 AM Information:Previous log file path: 'Z:\Electrolux Manufacturing Facility\logs\ComponentCatalog_Chandler.log'
+11/29/2017 11:31:35 AM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/29/2017 11:31:35 AM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 11:31:35 AM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 11:31:35 AM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 12:37:50 PM Information:Previous log file path: 'Z:\Electrolux Manufacturing Facility\logs\ComponentCatalog_Chandler.log'
+11/29/2017 12:37:50 PM Information:New log file path: 'C:\TeklaStructuresModels\Scratch\logs\ComponentCatalog_Chandler.log'
+11/29/2017 12:37:51 PM Error:Component not installed in Tekla Structures for item: CatalogPluginPartItem?SF_CBeamPlugin source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 12:37:51 PM Error:Component not installed in Tekla Structures for item: CatalogPluginConnectionItem?SmartConnectInitial source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml
+11/29/2017 12:37:51 PM Error:Component not installed in Tekla Structures for item: CatalogMacroModelingItem?SmartConnect?GLOBAL source: c:\teklastructures\21.1\environments\steelfab\sfsystem\componentcatalog.xml

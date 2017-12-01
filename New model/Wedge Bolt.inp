@@ -1,0 +1,11 @@
+page("TeklaStructures","")
+{
+   macro(1, "Wedge Bolt")
+   {
+       helpurl("TeklaInc_CC2.chm::/formwork_hardware.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Material", "P1", material, text, 1)
+       }
+   }
+}

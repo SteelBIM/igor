@@ -1,0 +1,19 @@
+page("Xsteel","")
+{
+   detail(1, "SEAT WITH GUSSET")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("ANCHOR ROD GAGE Y", "D1", distance, number, 1)
+           parameter("HOLE OVERSIZE", "P2", distance, number, 2)
+           parameter("SEAT EDGE DISTANCE", "P4", distance, number, 3)
+           parameter("'D'", "P5", distance, number, 4)
+           parameter("SEAT PLATE 'T'", "P6", distance, number, 5)
+           parameter("STIFF PLATE 'T'", "P7", distance, number, 6)
+           parameter("SEAT PLATE CHAMFER TYPE", "P11", chamfer_type, number, 7)
+           parameter("SEAT PLATE CHAMFER DISTANCE", "P12", distance, number, 8)
+           parameter("ANCHOR ROD GAGE X", "P13", distance, number, 9)
+           parameter("GUSSET PLATE 'T'", "P1", distance, number, 10)
+       }
+   }
+}
